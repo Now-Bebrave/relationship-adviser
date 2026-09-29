@@ -42,3 +42,7 @@
 - 彩礼具体给谁、用于什么、何时支付？
 - 是否需要借贷，借贷上限是多少？
 - 除彩礼外，住房、婚礼、三金、装修和婚后财产如何安排？
+
+## Legal reference
+
+For disputes about what counts as bride price or whether it should be returned, consult the Supreme People's Court interpretation 法释〔2024〕1号 and collect registration, cohabitation, payment, recipient, use, dowry, pregnancy or children, fault, local custom, and financial evidence.

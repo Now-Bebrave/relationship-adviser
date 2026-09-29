@@ -18,6 +18,12 @@ REQUIRED_PATHS = (
     "knowledge-schema/case.schema.json",
     "knowledge-schema/decision.schema.json",
     "knowledge/sources.yaml",
+    "knowledge/verified-sources.md",
+    "knowledge/books/verified-catalog.md",
+    "knowledge/legal/2024-bride-price-judicial-interpretation.md",
+    "knowledge/legal/bride-price-negotiation-and-evidence-checklist.md",
+    "knowledge/legal/civil-code-marriage-family.md",
+    "knowledge/legal/anti-domestic-violence-law.md",
     "examples/knowledge-seed.md",
     "examples/cases/bride-price-family-negotiation.md",
 )

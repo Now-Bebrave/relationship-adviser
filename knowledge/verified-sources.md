@@ -1,0 +1,20 @@
+# Verified source register
+
+Metadata verification means title, authors, venue, year, and DOI were checked against Crossref. It does not mean the full text has been reviewed.
+
+| Topic | Source | Evidence | Status |
+|---|---|---:|---|
+| Attachment and satisfaction | Candel & Turliuc (2019), DOI 10.1016/j.paid.2019.04.037 | L1 | Metadata verified; full text queued |
+| Sexual communication and function | Mallory, Stanton & Handy (2019), DOI 10.1080/00224499.2019.1568375 | L1 | Abstract reviewed via PubMed |
+| Sexual communication and satisfaction | Mallory (2022), DOI 10.1037/fam0000946 | L1 | Abstract reviewed via PubMed; PMC full text available |
+| Marriage and relationship education | Hawkins et al. (2008), DOI 10.1037/a0012584 | L1 | Abstract reviewed via PubMed |
+| Nonmarital relationship dissolution | Le et al. (2010), DOI 10.1111/j.1475-6811.2010.01285.x | L1 | Metadata verified; full text queued |
+| Demand/withdraw conflict pattern | Schrodt, Witt & Shimkowski (2014), DOI 10.1080/03637751.2013.813632 | L1 | Metadata and abstract reviewed |
+
+Search retrieval date: 2026-09-29.
+
+Verified book metadata is maintained in [books/verified-catalog.md](books/verified-catalog.md). Books remain L2 sources unless a specific empirical claim is separately supported by L1 evidence.
+
+Official Chinese legal sources are maintained under `knowledge/legal/`. The initial entries cover the Civil Code and the Supreme People's Court bride-price interpretation 法释〔2024〕1号.
+
+The official text of the Anti-Domestic Violence Law was reviewed on 2026-09-29. The local note indexes the statutory definition, reporting and police-response routes, listed evidence, personal safety protection orders, and the rule covering violence between people living together outside the statutory family relationship.

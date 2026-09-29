@@ -5,3 +5,12 @@ Relationship Adviser is a portable, text-first skill for practical relationship 
 The original media files stay in the user's MediaCrawler directory. This repository stores derived notes, timestamps, claims, and source indexes by reference rather than copying media.
 
 The initial package is documentation-first and has no model or network dependency. Platform adapters load the same core rules and provide capability fallbacks for Codex, Claude Code, and WorkBuddy.
+
+## Knowledge map
+
+- `knowledge/notes/`: verified research cards, with DOI, review status, usable claims, and limits.
+- `knowledge/books/`: verified book metadata and rules for using L2 material.
+- `knowledge/legal/`: official-law indexes and practical legal checklists.
+- `knowledge/playbooks/`: action sequences, scripts, reaction branches, and stop conditions derived from named evidence.
+- `knowledge/verified-sources.md`: public source register and verification depth.
+- `private-vault/`: local-only profile, personal cases, video notes, and media indexes; ignored by Git except for its README.
