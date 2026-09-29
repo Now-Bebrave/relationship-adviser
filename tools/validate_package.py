@@ -19,6 +19,7 @@ REQUIRED_PATHS = (
     "knowledge-schema/decision.schema.json",
     "knowledge/sources.yaml",
     "knowledge/verified-sources.md",
+    "knowledge/rejected-sources.md",
     "knowledge/books/verified-catalog.md",
     "knowledge/legal/2024-bride-price-judicial-interpretation.md",
     "knowledge/legal/bride-price-negotiation-and-evidence-checklist.md",

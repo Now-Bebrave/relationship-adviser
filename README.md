@@ -13,4 +13,5 @@ The initial package is documentation-first and has no model or network dependenc
 - `knowledge/legal/`: official-law indexes and practical legal checklists.
 - `knowledge/playbooks/`: action sequences, scripts, reaction branches, and stop conditions derived from named evidence.
 - `knowledge/verified-sources.md`: public source register and verification depth.
+- `knowledge/rejected-sources.md`: retracted or disqualified sources that must not be reused.
 - `private-vault/`: local-only profile, personal cases, video notes, and media indexes; ignored by Git except for its README.

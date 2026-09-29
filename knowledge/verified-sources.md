@@ -10,6 +10,9 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Marriage and relationship education | Hawkins et al. (2008), DOI 10.1037/a0012584 | L1 | Abstract reviewed via PubMed |
 | Nonmarital relationship dissolution | Le et al. (2010), DOI 10.1111/j.1475-6811.2010.01285.x | L1 | Metadata verified; full text queued |
 | Demand/withdraw conflict pattern | Schrodt, Witt & Shimkowski (2014), DOI 10.1080/03637751.2013.813632 | L1 | Metadata and abstract reviewed |
+| Partner responsiveness and physical health | Farrell et al. (2023), DOI 10.1016/j.copsyc.2023.101628 | L2 | Narrative-review abstract reviewed |
+| Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
+| Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 
 Search retrieval date: 2026-09-29.
 
@@ -18,3 +21,5 @@ Verified book metadata is maintained in [books/verified-catalog.md](books/verifi
 Official Chinese legal sources are maintained under `knowledge/legal/`. The initial entries cover the Civil Code and the Supreme People's Court bride-price interpretation 法释〔2024〕1号.
 
 The official text of the Anti-Domestic Violence Law was reviewed on 2026-09-29. The local note indexes the statutory definition, reporting and police-response routes, listed evidence, personal safety protection orders, and the rule covering violence between people living together outside the statutory family relationship.
+
+Retracted and otherwise excluded material is listed in [rejected-sources.md](rejected-sources.md). Exclusion overrides search rank and earlier notes.

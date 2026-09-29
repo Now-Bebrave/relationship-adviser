@@ -14,7 +14,7 @@ class VerifiedKnowledgeTests(unittest.TestCase):
             match = re.search(r'^doi: "([^"]+)"', text, re.MULTILINE)
             self.assertIsNotNone(match, path.name)
             dois.append(match.group(1).lower())
-            self.assertRegex(text, r"verification_status: (?:metadata_verified|abstract_reviewed)")
+            self.assertRegex(text, r"verification_status: (?:metadata_verified|abstract_reviewed|full_text_reviewed)")
             self.assertIn("retrieved_at:", text)
         self.assertEqual(len(dois), len(set(dois)))
 
@@ -38,3 +38,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("https://www.gov.cn/zhengce/2015-12/28/content_5029898.htm", text)
         for article in ("第二条", "第十五条", "第二十条", "第二十三条", "第二十九条", "第三十七条"):
             self.assertIn(article, text)
+
+    def test_retracted_sources_are_explicitly_excluded(self) -> None:
+        path = ROOT / "knowledge" / "rejected-sources.md"
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("10.1037/fam0000907", text)
+        self.assertIn("retracted", text.lower())
+        self.assertIn("不得用于", text)

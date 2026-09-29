@@ -11,6 +11,7 @@ class PackageValidatorTests(unittest.TestCase):
     def test_verified_knowledge_indexes_are_required(self) -> None:
         expected = {
             "knowledge/verified-sources.md",
+            "knowledge/rejected-sources.md",
             "knowledge/books/verified-catalog.md",
             "knowledge/legal/2024-bride-price-judicial-interpretation.md",
             "knowledge/legal/bride-price-negotiation-and-evidence-checklist.md",
