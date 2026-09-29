@@ -4,15 +4,16 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 
 | Topic | Source | Evidence | Status |
 |---|---|---:|---|
-| Attachment and satisfaction | Candel & Turliuc (2019), DOI 10.1016/j.paid.2019.04.037 | L1 | Metadata verified; full text queued |
+| Attachment and satisfaction | Candel & Turliuc (2019), DOI 10.1016/j.paid.2019.04.037 | L1 | Metadata and abstract reviewed |
 | Sexual communication and function | Mallory, Stanton & Handy (2019), DOI 10.1080/00224499.2019.1568375 | L1 | Abstract reviewed via PubMed |
 | Sexual communication and satisfaction | Mallory (2022), DOI 10.1037/fam0000946 | L1 | Abstract reviewed via PubMed; PMC full text available |
 | Marriage and relationship education | Hawkins et al. (2008), DOI 10.1037/a0012584 | L1 | Abstract reviewed via PubMed |
-| Nonmarital relationship dissolution | Le et al. (2010), DOI 10.1111/j.1475-6811.2010.01285.x | L1 | Metadata verified; full text queued |
+| Nonmarital relationship dissolution | Le et al. (2010), DOI 10.1111/j.1475-6811.2010.01285.x | L1 | Metadata and abstract reviewed; 137 samples |
 | Demand/withdraw conflict pattern | Schrodt, Witt & Shimkowski (2014), DOI 10.1080/03637751.2013.813632 | L1 | Metadata and abstract reviewed |
 | Partner responsiveness and physical health | Farrell et al. (2023), DOI 10.1016/j.copsyc.2023.101628 | L2 | Narrative-review abstract reviewed |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
+| Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
 
 Search retrieval date: 2026-09-29.
 

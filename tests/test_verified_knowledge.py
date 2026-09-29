@@ -45,3 +45,18 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("10.1037/fam0000907", text)
         self.assertIn("retracted", text.lower())
         self.assertIn("不得用于", text)
+
+    def test_attachment_and_dissolution_queues_are_promoted(self) -> None:
+        attachment = (ROOT / "knowledge" / "notes" / "2019-candel-turliuc-insecure-attachment-meta-analysis.md").read_text(encoding="utf-8")
+        dissolution = (ROOT / "knowledge" / "notes" / "2010-le-et-al-relationship-dissolution-meta-analysis.md").read_text(encoding="utf-8")
+        self.assertIn("verification_status: abstract_reviewed", attachment)
+        self.assertIn("Actor effects", attachment)
+        self.assertIn("37,761", dissolution)
+        self.assertIn("commitment", dissolution.lower())
+
+    def test_shared_finance_guidance_preserves_scope_and_safety(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2023-olson-bank-account-structure-experiment.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "shared-finance-structure.md").read_text(encoding="utf-8")
+        self.assertIn("engaged or newlywed", note)
+        self.assertIn("random", note.lower())
+        self.assertIn("financial control", playbook.lower())

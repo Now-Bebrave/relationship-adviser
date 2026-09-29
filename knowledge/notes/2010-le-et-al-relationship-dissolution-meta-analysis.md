@@ -14,23 +14,27 @@ doi: "10.1111/j.1475-6811.2010.01285.x"
 url: "https://doi.org/10.1111/j.1475-6811.2010.01285.x"
 type: paper
 evidence_level: L1
-verification_status: metadata_verified
-full_text_status: not_reviewed
+verification_status: abstract_reviewed
+abstract_source: "APA PsycInfo indexed abstract and publisher search record"
 retrieved_at: "2026-09-29"
 ```
 
-## Verified scope
+## Verified scope and findings
 
-Crossref confirms that this is a meta-analytic synthesis about predictors of dissolution in nonmarital romantic relationships. Predictor weights and moderators have not yet been extracted.
+The indexed abstract reports a meta-analysis of nonmarital romantic relationship dissolution using data from 37,761 participants and 137 samples. Commitment, love, inclusion of the partner in the self, and dependence were among the strongest predictors of dissolution.
+
+These predictors describe average differences across studies. They do not produce a valid numerical breakup probability for one couple without a validated individual prediction model and matching population.
 
 ## Safe current use
 
-- Use this source to build a future evidence-based breakup-risk checklist only after the full text is reviewed.
-- Until then, base decisions on observable investment, alternatives, conflict patterns, commitment, and explicit plans without assigning numerical breakup probabilities.
+- Assess commitment through observable choices, investment, sacrifice limits, and future plans rather than one reassuring sentence.
+- Separate love or affection from willingness and ability to build the requested relationship.
+- Use dependence and alternatives as context, not as reasons to stay in an unsafe or incompatible relationship.
+- Do not assign numerical breakup probabilities to an individual couple.
 
-## Full-text extraction queue
+## Limits and full-text queue
 
-- predictor categories and relative effect sizes;
+- exact predictor effect sizes and heterogeneity;
 - differences between dating, cohabiting, and other nonmarital samples;
 - length of follow-up and sample demographics;
 - limitations in predicting an individual couple.
