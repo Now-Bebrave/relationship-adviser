@@ -1,0 +1,19 @@
+title: ""
+source:
+  platform: ""
+  url: ""
+  local_path: ""
+  author: ""
+topic: ""
+evidence_level: L3
+extraction_mode: notes_only
+transcript: []
+claims: []
+playbook:
+  goal: ""
+  steps: []
+  scripts: []
+  expected_reactions: []
+  responses: []
+  stop_conditions: []
+limits: []

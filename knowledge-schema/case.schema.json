@@ -1,0 +1,14 @@
+{
+  "title": "Case Card",
+  "type": "object",
+  "required": ["title", "context", "goal", "actions", "reactions", "result", "limits"],
+  "properties": {
+    "title": {"type": "string"},
+    "context": {"type": "string"},
+    "goal": {"type": "string"},
+    "actions": {"type": "array"},
+    "reactions": {"type": "array"},
+    "result": {"type": "string"},
+    "limits": {"type": "array"}
+  }
+}

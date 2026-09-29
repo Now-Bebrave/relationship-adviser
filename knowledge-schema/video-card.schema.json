@@ -1,0 +1,16 @@
+{
+  "title": "Video Card",
+  "type": "object",
+  "required": ["title", "source", "topic", "evidence_level", "extraction_mode", "transcript", "claims", "playbook", "limits"],
+  "properties": {
+    "title": {"type": "string"},
+    "source": {"type": "object"},
+    "topic": {"type": "string"},
+    "evidence_level": {"enum": ["L1", "L2", "L3", "L4"]},
+    "extraction_mode": {"enum": ["notes_only", "notes_plus_images", "notes_plus_spotcheck", "full_video"]},
+    "transcript": {"type": "array"},
+    "claims": {"type": "array"},
+    "playbook": {"type": "object"},
+    "limits": {"type": "array"}
+  }
+}

@@ -1,0 +1,11 @@
+.worktrees/
+.test-tmp/
+**/__pycache__/
+*.py[cod]
+private-vault/**
+!private-vault/README.md
+**/*.local.*
+**/raw-media/
+**/*.mp4
+**/*.mov
+**/*.mkv

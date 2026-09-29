@@ -1,0 +1,13 @@
+{
+  "title": "Decision Card",
+  "type": "object",
+  "required": ["question", "priority", "recommendation", "steps", "stop_conditions", "review"],
+  "properties": {
+    "question": {"type": "string"},
+    "priority": {"type": "string"},
+    "recommendation": {"type": "string"},
+    "steps": {"type": "array"},
+    "stop_conditions": {"type": "array"},
+    "review": {"type": "string"}
+  }
+}
