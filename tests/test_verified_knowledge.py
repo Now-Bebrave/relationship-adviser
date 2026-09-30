@@ -139,3 +139,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("跟进", playbook)
         self.assertIn("两周", playbook)
         self.assertIn("Stop conditions", playbook)
+
+    def test_trust_repair_playbook_is_bounded_and_optional(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2025-giacobbi-lalot-trust-repair-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "trust-repair-after-betrayal.md").read_text(encoding="utf-8")
+        self.assertIn("13 empirical articles", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("30 天", playbook)
+        self.assertIn("可撤回", playbook)
+        self.assertIn("Stop conditions", playbook)
+        self.assertIn("强制密码", playbook)
