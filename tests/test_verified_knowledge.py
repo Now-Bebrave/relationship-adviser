@@ -247,3 +247,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("一周", "可逆", "分床", "睡眠门诊", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_economic_strain_playbook_covers_real_world_marriage_feasibility(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2020-falconier-jackson-economic-strain-couple-functioning-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "economic-strain-and-marriage-feasibility.md").read_text(encoding="utf-8")
+        self.assertIn("meta_analysis", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("收入", "债务", "家庭责任", "两周", "连续三个月", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
