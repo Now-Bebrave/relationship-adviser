@@ -159,3 +159,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("3、6、12个月", playbook)
         self.assertIn("睡眠", playbook)
         self.assertIn("Stop conditions", playbook)
+
+    def test_sti_notification_playbook_is_medical_and_safety_first(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2012_cochrane_partner_notification_sti.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "sti-partner-notification.md").read_text(encoding="utf-8")
+        self.assertIn("26 trials", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("检测机构", playbook)
+        self.assertIn("第三方通知", playbook)
+        self.assertIn("Stop conditions", playbook)
