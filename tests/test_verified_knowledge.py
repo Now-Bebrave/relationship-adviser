@@ -129,3 +129,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("共同执行", playbook)
         self.assertIn("Stop conditions", playbook)
         self.assertIn("未经同意上门", playbook)
+
+    def test_mental_load_playbook_requires_full_responsibility(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2023-reich-stiebert-gendered-mental-labor-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "emotional-labor-and-mental-load.md").read_text(encoding="utf-8")
+        self.assertIn("31 full-text articles", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("发现", playbook)
+        self.assertIn("跟进", playbook)
+        self.assertIn("两周", playbook)
+        self.assertIn("Stop conditions", playbook)

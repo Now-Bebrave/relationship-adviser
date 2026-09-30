@@ -21,6 +21,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Breakup stress and recovery | Verhallen et al. (2019), DOI 10.1371/journal.pone.0217320 | L1 | Open full text reviewed; breakup group n=71, comparison group n=46 |
 | Digital boundaries and social-media jealousy | Tandon, Dhir & Mäntymäki (2021), DOI 10.1108/intr-02-2020-0103 | L1 | Abstract reviewed; systematic review of 45 empirical studies |
 | In-law conflict and family boundaries | Bryant & Conger (2001), DOI 10.1111/j.1741-3737.2001.00614.x | L1 | Abstract reviewed; prospective study of long-term marriages |
+| Mental labor and household cognitive load | Reich-Stiebert, Froehlich & Voltmer (2023), DOI 10.1007/s11199-023-01362-0 | L1 | Abstract reviewed; systematic review of 31 full-text studies |
 
 Search retrieval date: 2026-09-29.
 
