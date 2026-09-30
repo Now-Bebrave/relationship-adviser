@@ -18,6 +18,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Reproductive coercion | Grace & Anderson (2018), DOI 10.1177/1524838016663935 | L1 | Open systematic review full text reviewed; 27 studies |
 | Repair after interpersonal harm | McCullough et al. (2014), DOI 10.1073/pnas.1405072111 | L1 | Abstract reviewed; longitudinal sample of 337 |
 | Sexual desire discrepancy | Vowels & Mark (2020), DOI 10.1007/s10508-020-01640-y | L1 | Open full text reviewed; mixed-methods sample of 229 |
+| Breakup stress and recovery | Verhallen et al. (2019), DOI 10.1371/journal.pone.0217320 | L1 | Open full text reviewed; breakup group n=71, comparison group n=46 |
 
 Search retrieval date: 2026-09-29.
 

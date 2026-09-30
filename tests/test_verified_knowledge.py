@@ -102,3 +102,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("暂停升级", playbook)
         self.assertIn("停止条件", playbook)
         self.assertIn("生育", playbook)
+
+    def test_exit_playbook_covers_safety_logistics_and_recovery(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2019-verhallen-breakup-stress.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "relationship-exit-execution.md").read_text(encoding="utf-8")
+        self.assertIn("26.8%", note)
+        self.assertIn("full_text_reviewed", note)
+        self.assertIn("72小时", playbook)
+        self.assertIn("住房", playbook)
+        self.assertIn("Stop conditions", playbook)
+        self.assertIn("自伤", playbook)
