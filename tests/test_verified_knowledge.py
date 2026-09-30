@@ -213,3 +213,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         for marker in ("倾听", "就医支持", "48 小时", "专业", "Stop conditions", "自伤"):
             self.assertIn(marker, playbook)
         self.assertIn("```mermaid", playbook)
+
+    def test_emotion_regulation_playbook_is_concrete_and_safety_bounded(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2022-jardine-vannier-voyer-emotional-intelligence-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "emotion-regulation-and-conflict-deescalation.md").read_text(encoding="utf-8")
+        self.assertIn("78 个样本", note)
+        self.assertIn("90 个效应量", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("暂停", "具体请求", "7 天", "Stop conditions", "威胁", "```mermaid"):
+            self.assertIn(marker, playbook)
