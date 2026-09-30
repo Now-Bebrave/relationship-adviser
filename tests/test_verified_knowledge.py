@@ -177,3 +177,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("私下", playbook)
         self.assertIn("持续支持", playbook)
         self.assertIn("Stop conditions", playbook)
+
+    def test_jealousy_playbook_separates_facts_from_control(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2017-romantic-jealousy-systematic-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "jealousy-and-uncertainty.md").read_text(encoding="utf-8")
+        self.assertIn("230 studies", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("事实", playbook)
+        self.assertIn("14 天", playbook)
+        self.assertIn("Stop conditions", playbook)
