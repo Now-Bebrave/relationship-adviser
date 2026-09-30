@@ -121,3 +121,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("不以强制检查作为信任证明", playbook)
         self.assertIn("Stop conditions", playbook)
         self.assertIn("网络跟踪", playbook)
+
+    def test_family_boundary_playbook_requires_partner_enforcement(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2001-bryant-conger-inalaw-conflict.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "family-boundaries-and-inlaws.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("共同执行", playbook)
+        self.assertIn("Stop conditions", playbook)
+        self.assertIn("未经同意上门", playbook)
