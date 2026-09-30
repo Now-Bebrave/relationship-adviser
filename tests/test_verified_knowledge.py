@@ -230,3 +230,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("72 小时", "专业", "停止兜底", "Stop conditions", "暴力", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_chronic_illness_playbook_preserves_autonomy_and_caregiver_capacity(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2021-weitkamp-dyadic-coping-chronic-illness-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "chronic-illness-caregiving-and-couple-coordination.md").read_text(encoding="utf-8")
+        self.assertIn("systematic_review", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("患者自主", "照护者恢复", "两周", "备用人", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
