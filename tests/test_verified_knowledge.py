@@ -204,3 +204,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("持续同意", playbook)
         self.assertIn("退出机制", playbook)
         self.assertIn("Stop conditions", playbook)
+
+    def test_mental_health_support_playbook_is_bounded_and_actionable(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2016-gariepy-honkaniemi-social-support-depression-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "mental-health-support-in-relationships.md").read_text(encoding="utf-8")
+        self.assertIn("100 项研究", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("倾听", "就医支持", "48 小时", "专业", "Stop conditions", "自伤"):
+            self.assertIn(marker, playbook)
+        self.assertIn("```mermaid", playbook)
