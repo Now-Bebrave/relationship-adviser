@@ -149,3 +149,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("可撤回", playbook)
         self.assertIn("Stop conditions", playbook)
         self.assertIn("强制密码", playbook)
+
+    def test_parenthood_transition_playbook_prioritizes_health_and_workload(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2022-bogdan-turliuc-candel-parenthood-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "transition-to-parenthood.md").read_text(encoding="utf-8")
+        self.assertIn("49 studies", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("产后12周", playbook)
+        self.assertIn("3、6、12个月", playbook)
+        self.assertIn("睡眠", playbook)
+        self.assertIn("Stop conditions", playbook)

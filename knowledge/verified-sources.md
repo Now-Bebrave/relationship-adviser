@@ -23,6 +23,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | In-law conflict and family boundaries | Bryant & Conger (2001), DOI 10.1111/j.1741-3737.2001.00614.x | L1 | Abstract reviewed; prospective study of long-term marriages |
 | Mental labor and household cognitive load | Reich-Stiebert, Froehlich & Voltmer (2023), DOI 10.1007/s11199-023-01362-0 | L1 | Abstract reviewed; systematic review of 31 full-text studies |
 | Trust repair after betrayal | Giacobbi & Lalot (2025), DOI 10.1111/1467-6427.12483 | L1 | Abstract reviewed; systematic review of 13 empirical articles |
+| Transition to parenthood | Bogdan, Turliuc & Candel (2022), DOI 10.3389/fpsyg.2022.901362 | L1 | Abstract reviewed; meta-analysis of 49 studies |
 
 Search retrieval date: 2026-09-29.
 
