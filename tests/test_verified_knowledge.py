@@ -94,3 +94,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("自由拒绝", playbook)
         self.assertIn("停止条件", playbook)
         self.assertIn("不以恢复性行为为目标", playbook)
+
+    def test_premarital_audit_has_hard_gates_and_staged_decision(self) -> None:
+        playbook = (ROOT / "knowledge" / "playbooks" / "premarital-cohabitation-audit.md").read_text(encoding="utf-8")
+        self.assertIn("DOI 10.1037/a0012584", playbook)
+        self.assertIn("四周", playbook)
+        self.assertIn("暂停升级", playbook)
+        self.assertIn("停止条件", playbook)
+        self.assertIn("生育", playbook)
