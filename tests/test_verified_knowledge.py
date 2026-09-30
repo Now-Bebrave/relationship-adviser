@@ -60,3 +60,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("engaged or newlywed", note)
         self.assertIn("random", note.lower())
         self.assertIn("financial control", playbook.lower())
+
+    def test_dyadic_coping_playbook_distinguishes_stressor_types(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2019-falconier-kuhn-dyadic-coping-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "dyadic-coping.md").read_text(encoding="utf-8")
+        self.assertIn("139 studies", note)
+        self.assertIn("within-relationship", note)
+        self.assertIn("stress communication", playbook.lower())
+        self.assertIn("停止", playbook)

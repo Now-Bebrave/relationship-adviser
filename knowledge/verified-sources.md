@@ -14,6 +14,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
+| Dyadic coping in couples | Falconier & Kuhn (2019), DOI 10.3389/fpsyg.2019.00571 | L1 | Open systematic review full text reviewed; 139 studies |
 
 Search retrieval date: 2026-09-29.
 
