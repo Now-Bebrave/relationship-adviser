@@ -16,6 +16,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
 | Dyadic coping in couples | Falconier & Kuhn (2019), DOI 10.3389/fpsyg.2019.00571 | L1 | Open systematic review full text reviewed; 139 studies |
 | Reproductive coercion | Grace & Anderson (2018), DOI 10.1177/1524838016663935 | L1 | Open systematic review full text reviewed; 27 studies |
+| Repair after interpersonal harm | McCullough et al. (2014), DOI 10.1073/pnas.1405072111 | L1 | Abstract reviewed; longitudinal sample of 337 |
 
 Search retrieval date: 2026-09-29.
 

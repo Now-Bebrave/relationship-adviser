@@ -76,3 +76,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("birth control sabotage", note.lower())
         self.assertIn("不要单独对质", playbook)
         self.assertIn("停止条件", playbook)
+
+    def test_repair_playbook_requires_behavioral_change(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2014-mccullough-conciliatory-gestures-forgiveness.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "repair-after-harm.md").read_text(encoding="utf-8")
+        self.assertIn("337", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("7天", playbook)
+        self.assertIn("停止条件", playbook)
+        self.assertIn("胁迫", playbook)
