@@ -186,3 +186,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("事实", playbook)
         self.assertIn("14 天", playbook)
         self.assertIn("Stop conditions", playbook)
+
+    def test_long_distance_playbook_requires_reunion_validation(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2007-jimenez-morales-long-distance-relationships.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "long-distance-relationship.md").read_text(encoding="utf-8")
+        self.assertIn("Two studies", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("2—4 周", playbook)
+        self.assertIn("重聚", playbook)
+        self.assertIn("Stop conditions", playbook)

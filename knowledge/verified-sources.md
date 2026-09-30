@@ -27,6 +27,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | STI/HIV partner notification | Cochrane Sexually Transmitted Infections Group (2012), DOI 10.1002/14651858.CD002843.pub2 | L1 | Abstract reviewed; Cochrane review of 26 trials and 17,578 participants |
 | IPV screening and ongoing support | U.S. Preventive Services Task Force (2018), DOI 10.1001/jama.2018.14741 | L1 | Abstract reviewed; evidence review and recommendation |
 | Romantic jealousy and uncertainty | Systematic review (2017), DOI 10.4067/S0718-48082017000200203 | L1 | Abstract reviewed; systematic review of 230 studies |
+| Long-distance relationship maintenance and reunion | Jimenez & Holmes (2007), DOI 10.1177/0265407507072578 | L1 | Abstract reviewed; two comparative studies |
 
 Search retrieval date: 2026-09-29.
 
