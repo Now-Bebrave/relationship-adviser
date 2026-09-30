@@ -17,6 +17,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Dyadic coping in couples | Falconier & Kuhn (2019), DOI 10.3389/fpsyg.2019.00571 | L1 | Open systematic review full text reviewed; 139 studies |
 | Reproductive coercion | Grace & Anderson (2018), DOI 10.1177/1524838016663935 | L1 | Open systematic review full text reviewed; 27 studies |
 | Repair after interpersonal harm | McCullough et al. (2014), DOI 10.1073/pnas.1405072111 | L1 | Abstract reviewed; longitudinal sample of 337 |
+| Sexual desire discrepancy | Vowels & Mark (2020), DOI 10.1007/s10508-020-01640-y | L1 | Open full text reviewed; mixed-methods sample of 229 |
 
 Search retrieval date: 2026-09-29.
 

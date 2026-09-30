@@ -85,3 +85,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("7天", playbook)
         self.assertIn("停止条件", playbook)
         self.assertIn("胁迫", playbook)
+
+    def test_desire_discrepancy_playbook_preserves_consent(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2020-vowels-mark-sexual-desire-discrepancy.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "sexual-desire-discrepancy.md").read_text(encoding="utf-8")
+        self.assertIn("229", note)
+        self.assertIn("full_text_reviewed", note)
+        self.assertIn("自由拒绝", playbook)
+        self.assertIn("停止条件", playbook)
+        self.assertIn("不以恢复性行为为目标", playbook)
