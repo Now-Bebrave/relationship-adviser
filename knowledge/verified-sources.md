@@ -25,6 +25,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Trust repair after betrayal | Giacobbi & Lalot (2025), DOI 10.1111/1467-6427.12483 | L1 | Abstract reviewed; systematic review of 13 empirical articles |
 | Transition to parenthood | Bogdan, Turliuc & Candel (2022), DOI 10.3389/fpsyg.2022.901362 | L1 | Abstract reviewed; meta-analysis of 49 studies |
 | STI/HIV partner notification | Cochrane Sexually Transmitted Infections Group (2012), DOI 10.1002/14651858.CD002843.pub2 | L1 | Abstract reviewed; Cochrane review of 26 trials and 17,578 participants |
+| IPV screening and ongoing support | U.S. Preventive Services Task Force (2018), DOI 10.1001/jama.2018.14741 | L1 | Abstract reviewed; evidence review and recommendation |
 
 Search retrieval date: 2026-09-29.
 

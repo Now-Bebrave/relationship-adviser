@@ -168,3 +168,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("检测机构", playbook)
         self.assertIn("第三方通知", playbook)
         self.assertIn("Stop conditions", playbook)
+
+    def test_ipv_screening_playbook_prioritizes_private_ongoing_support(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2018_uspstf_ipv_screening_review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "ipv-screening-and-support.md").read_text(encoding="utf-8")
+        self.assertIn("moderate net benefit", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("私下", playbook)
+        self.assertIn("持续支持", playbook)
+        self.assertIn("Stop conditions", playbook)
