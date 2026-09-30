@@ -112,3 +112,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("住房", playbook)
         self.assertIn("Stop conditions", playbook)
         self.assertIn("自伤", playbook)
+
+    def test_digital_boundaries_playbook_rejects_surveillance_as_trust(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2021-tandon-social-media-jealousy-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "digital-boundaries-and-jealousy.md").read_text(encoding="utf-8")
+        self.assertIn("45 empirical studies", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("不以强制检查作为信任证明", playbook)
+        self.assertIn("Stop conditions", playbook)
+        self.assertIn("网络跟踪", playbook)

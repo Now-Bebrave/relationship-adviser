@@ -19,6 +19,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Repair after interpersonal harm | McCullough et al. (2014), DOI 10.1073/pnas.1405072111 | L1 | Abstract reviewed; longitudinal sample of 337 |
 | Sexual desire discrepancy | Vowels & Mark (2020), DOI 10.1007/s10508-020-01640-y | L1 | Open full text reviewed; mixed-methods sample of 229 |
 | Breakup stress and recovery | Verhallen et al. (2019), DOI 10.1371/journal.pone.0217320 | L1 | Open full text reviewed; breakup group n=71, comparison group n=46 |
+| Digital boundaries and social-media jealousy | Tandon, Dhir & Mäntymäki (2021), DOI 10.1108/intr-02-2020-0103 | L1 | Abstract reviewed; systematic review of 45 empirical studies |
 
 Search retrieval date: 2026-09-29.
 
