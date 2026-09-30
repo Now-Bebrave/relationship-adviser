@@ -222,3 +222,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("暂停", "具体请求", "7 天", "Stop conditions", "威胁", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_substance_use_playbook_prioritizes_safety_and_referral(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2008-powers-behavioral-couples-therapy-substance-use-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "substance-use-boundaries-and-support.md").read_text(encoding="utf-8")
+        self.assertIn("meta_analysis", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("72 小时", "专业", "停止兜底", "Stop conditions", "暴力", "```mermaid"):
+            self.assertIn(marker, playbook)

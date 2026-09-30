@@ -13,6 +13,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Partner responsiveness and physical health | Farrell et al. (2023), DOI 10.1016/j.copsyc.2023.101628 | L2 | Narrative-review abstract reviewed |
 | Social support and depression protection | Gariépy, Honkaniemi & Quesnel-Vallée (2016), DOI 10.1192/bjp.bp.115.169094 | L1 | Abstract reviewed; systematic review of 100 studies |
 | Emotional intelligence and relationship satisfaction | Jardine, Vannier & Voyer (2022), DOI 10.1016/j.paid.2022.111713 | L1 | Abstract reviewed; meta-analysis of 78 samples and 90 effect sizes |
+| Substance use and behavioral couples therapy | Powers, Vedel & Emmelkamp (2008), DOI 10.1016/j.cpr.2008.02.002 | L1 | Abstract reviewed; meta-analysis of behavioral couples therapy |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
