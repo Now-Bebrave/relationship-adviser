@@ -195,3 +195,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("2—4 周", playbook)
         self.assertIn("重聚", playbook)
         self.assertIn("Stop conditions", playbook)
+
+    def test_cnm_playbook_requires_ongoing_consent_and_exit(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2023-gupta-tarantino-sanner-cnm-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "consensual-nonmonogamy-boundaries.md").read_text(encoding="utf-8")
+        self.assertIn("209 studies", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("持续同意", playbook)
+        self.assertIn("退出机制", playbook)
+        self.assertIn("Stop conditions", playbook)
