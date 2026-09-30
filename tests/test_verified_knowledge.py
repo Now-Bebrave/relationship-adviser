@@ -68,3 +68,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("within-relationship", note)
         self.assertIn("stress communication", playbook.lower())
         self.assertIn("停止", playbook)
+
+    def test_reproductive_coercion_guidance_is_safety_first(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2018-grace-anderson-reproductive-coercion-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "reproductive-autonomy.md").read_text(encoding="utf-8")
+        self.assertIn("27", note)
+        self.assertIn("birth control sabotage", note.lower())
+        self.assertIn("不要单独对质", playbook)
+        self.assertIn("停止条件", playbook)
