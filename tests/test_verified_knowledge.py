@@ -354,3 +354,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("容量预算", "两周", "职业让步", "个人应急金", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_social_network_playbook_uses_evidence_not_popularity(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2000-sprecher-felmlee-social-network-relationship-transitions.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "social-network-approval-and-relationship-decisions.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("四级", "14 天", "具体事件", "支持网络", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
