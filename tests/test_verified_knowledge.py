@@ -269,3 +269,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("住房", "户籍", "父母", "30 天", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_gender_role_playbook_converts_attitudes_into_observable_responsibilities(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2025-park-gender-role-attitudes-relationship-satisfaction.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "gender-role-and-marital-labor-audit.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("实际分工", "两周", "完整责任", "生育", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
