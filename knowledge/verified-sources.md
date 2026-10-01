@@ -33,6 +33,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Social network approval and relationship transitions | Sprecher & Felmlee (2000), DOI 10.1111/j.1475-6811.2000.tb00020.x | L2 | Abstract reviewed; longitudinal study of network perceptions and relationship transitions |
 | Ideal partner preferences and actual relationship evaluation | Eastwick et al. (2014), DOI 10.1037/a0032432 | L1 | Abstract reviewed; review and meta-analysis of preference predictive validity |
 | Sliding versus deciding in relationship transitions | Stanley, Rhoades & Markman (2006), DOI 10.1111/j.1741-3729.2006.00418.x | L2 | Abstract reviewed; conceptual review of cohabitation inertia and constraints |
+| Relational uncertainty in dating relationships | Knobloch & Solomon (1999), DOI 10.1080/10510979909388499 | L2 | Abstract reviewed; measurement study distinguishing self, partner, and relationship uncertainty |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
@@ -52,7 +53,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Long-distance relationship maintenance and reunion | Stafford & Merolla (2007), DOI 10.1177/0265407507072578 | L1 | Abstract reviewed; two comparative studies |
 | Consensual non-monogamy and relationship boundaries | Gupta, Tarantino & Sanner (2023), DOI 10.1111/jftr.12546 | L1 | Abstract reviewed; scoping review of 209 studies |
 
-Search retrieval date: 2026-09-29.
+Search retrieval date: 2026-10-01.
 
 Verified book metadata is maintained in [books/verified-catalog.md](books/verified-catalog.md). Books remain L2 sources unless a specific empirical claim is separately supported by L1 evidence.
 

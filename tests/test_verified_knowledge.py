@@ -375,3 +375,14 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("七个", "六问", "30 天", "退出成本", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_relationship_definition_playbook_turns_uncertainty_into_explicit_boundaries(self) -> None:
+        note_path = ROOT / "knowledge" / "notes" / "1999-knobloch-solomon-relational-uncertainty.md"
+        playbook_path = ROOT / "knowledge" / "playbooks" / "relationship-definition-and-exclusivity-boundaries.md"
+        self.assertTrue(note_path.exists())
+        self.assertTrue(playbook_path.exists())
+        note = note_path.read_text(encoding="utf-8")
+        playbook = playbook_path.read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("自我不确定性", "伴侣不确定性", "关系不确定性", "排他", "14 天", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
