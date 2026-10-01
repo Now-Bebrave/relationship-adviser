@@ -337,3 +337,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("六个阶段", "30 天", "生育", "重复模式", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_coparenting_playbook_protects_children_and_requires_complete_responsibility(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2024-ronaghan-coparenting-marital-satisfaction-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "coparenting-and-marital-coordination.md").read_text(encoding="utf-8")
+        self.assertIn("108 项研究", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("两周", "孩子", "完整责任", "停止条件", "```mermaid"):
+            self.assertIn(marker, playbook)
