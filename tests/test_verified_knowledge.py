@@ -255,3 +255,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("收入", "债务", "家庭责任", "两周", "连续三个月", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_partner_matching_playbook_separates_attraction_from_feasibility(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2004-watson-assortative-mating-newlywed-couples.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "partner-matching-and-real-world-fit.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("外貌", "收入", "家庭与社会", "三阶段", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)

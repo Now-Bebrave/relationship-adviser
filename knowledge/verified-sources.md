@@ -17,6 +17,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Chronic illness and couple dyadic coping | Weitkamp et al. (2021), DOI 10.3389/fpsyg.2021.722740 | L1 | Abstract reviewed; systematic review of dyadic coping in chronic physical illness |
 | Sleep and couple relationship quality | Wang et al. (2025), DOI 10.1016/j.smrv.2024.102018 | L1 | Abstract reviewed; meta-analysis of 62 studies and 43,860 participants |
 | Economic strain and couple relationship functioning | Falconier & Jackson (2020), DOI 10.1037/str0000157 | L1 | Abstract reviewed; meta-analysis of economic strain and couple functioning |
+| Assortative mating and partner matching | Watson et al. (2004), DOI 10.1111/j.0022-3506.2004.00289.x | L2 | Abstract reviewed; newlywed similarity across multiple individual-difference domains |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
