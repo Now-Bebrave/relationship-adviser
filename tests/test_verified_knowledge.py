@@ -299,3 +299,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("视频", "公共场所", "不转账", "Stop conditions", "验证码", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_infidelity_playbook_separates_boundaries_from_prevalence_and_requires_safety(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2024-warach-infidelity-prevalence-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "infidelity-boundaries-and-repair-decision.md").read_text(encoding="utf-8")
+        self.assertIn("305 项研究", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("性边界", "72 小时", "30 天", "停止第三方关系", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)

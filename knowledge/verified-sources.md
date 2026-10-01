@@ -23,6 +23,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Body dissatisfaction and romantic relationship quality | Stiles et al. (2023), DOI 10.1177/02654075221128504 | L1 | Abstract reviewed; meta-analysis of 56 studies |
 | Marriage timing and social pressure in urban China | Yu & Xie (2015), DOI 10.1007/s13524-015-0432-z | L2 | Abstract reviewed; population study of marriage entry over six decades |
 | Online dating deception and first-date outcomes | Sharabi & Caughlin (2019), DOI 10.1177/1461444818792425 | L2 | Abstract reviewed; longitudinal study of 94 online daters |
+| Infidelity definitions and prevalence | Warach et al. (2024), DOI 10.1111/pere.12571 | L1 | Abstract reviewed; systematic review and meta-analysis of 305 studies |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
