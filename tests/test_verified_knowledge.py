@@ -345,3 +345,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("两周", "孩子", "完整责任", "停止条件", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_work_family_playbook_uses_capacity_and_protects_careers(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2016-fellows-work-family-conflict-couple-quality-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "work-family-conflict-and-couple-coordination.md").read_text(encoding="utf-8")
+        self.assertIn("33 项研究", note)
+        self.assertIn("49 个样本", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("容量预算", "两周", "职业让步", "个人应急金", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)

@@ -29,6 +29,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Power dynamics in couple relationships | Young & Seedall (2024), DOI 10.1111/famp.13008 | L2 | Abstract reviewed; review of influence and resistance patterns in couples |
 | Relationship satisfaction across the life span | Bühler et al. (2021), DOI 10.1037/bul0000342 | L1 | Abstract reviewed; systematic review and meta-analysis of relationship satisfaction trajectories |
 | Coparenting and marital satisfaction | Ronaghan et al. (2024), DOI 10.1037/fam0001149 | L1 | Abstract reviewed; meta-analysis of 108 studies |
+| Work-family conflict and couple relationship quality | Fellows et al. (2016), DOI 10.1007/s10834-015-9450-7 | L1 | Abstract reviewed; meta-analysis of 33 studies and 49 samples |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
