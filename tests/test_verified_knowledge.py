@@ -330,3 +330,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("五问审计", "七天", "安全说不", "重大决定", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_relationship_stage_playbook_separates_normal_fluctuation_from_harm(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2021-buhler-relationship-satisfaction-life-span-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "relationship-stage-review-and-marital-maintenance.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("六个阶段", "30 天", "生育", "重复模式", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
