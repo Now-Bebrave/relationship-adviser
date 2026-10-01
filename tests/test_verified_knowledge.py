@@ -262,3 +262,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("外貌", "收入", "家庭与社会", "三阶段", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_migration_marriage_playbook_covers_housing_and_family_tradeoffs(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2023-xiong-internal-migration-marriage-prospects-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "migration-housing-and-marriage-choice.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("住房", "户籍", "父母", "30 天", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
