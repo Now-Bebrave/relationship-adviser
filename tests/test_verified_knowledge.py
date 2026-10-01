@@ -284,3 +284,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("外貌吸引", "身体尊重", "14 天", "强迫", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_marriage_timing_playbook_resists_age_pressure_and_requires_audit(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2015-yu-xie-marriage-entry-urban-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "marriage-timing-and-pressure-audit.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("年龄", "六周", "生育", "催婚", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
