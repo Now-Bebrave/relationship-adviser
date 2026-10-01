@@ -276,3 +276,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("实际分工", "两周", "完整责任", "生育", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_appearance_playbook_separates_attraction_from_body_control(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2023-stiles-body-dissatisfaction-relationship-quality-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "appearance-attraction-and-body-respect.md").read_text(encoding="utf-8")
+        self.assertIn("56 项研究", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("外貌吸引", "身体尊重", "14 天", "强迫", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)

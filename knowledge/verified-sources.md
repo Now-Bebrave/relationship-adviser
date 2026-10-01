@@ -20,6 +20,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Assortative mating and partner matching | Watson et al. (2004), DOI 10.1111/j.0022-3506.2004.00289.x | L2 | Abstract reviewed; newlywed similarity across multiple individual-difference domains |
 | Migration and marriage prospects in China | Xiong (2023), DOI 10.1007/s10680-023-09658-3 | L2 | Abstract reviewed; internal migration and marriage-market prospects |
 | Gender-role congruence and relationship satisfaction | Park et al. (2025), DOI 10.1093/pnasnexus/pgae589 | L2 | Abstract reviewed; partner gender-role attitude congruence and satisfaction |
+| Body dissatisfaction and romantic relationship quality | Stiles et al. (2023), DOI 10.1177/02654075221128504 | L1 | Abstract reviewed; meta-analysis of 56 studies |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
