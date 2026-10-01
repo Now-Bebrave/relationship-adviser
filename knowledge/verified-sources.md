@@ -31,6 +31,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Coparenting and marital satisfaction | Ronaghan et al. (2024), DOI 10.1037/fam0001149 | L1 | Abstract reviewed; meta-analysis of 108 studies |
 | Work-family conflict and couple relationship quality | Fellows et al. (2016), DOI 10.1007/s10834-015-9450-7 | L1 | Abstract reviewed; meta-analysis of 33 studies and 49 samples |
 | Social network approval and relationship transitions | Sprecher & Felmlee (2000), DOI 10.1111/j.1475-6811.2000.tb00020.x | L2 | Abstract reviewed; longitudinal study of network perceptions and relationship transitions |
+| Ideal partner preferences and actual relationship evaluation | Eastwick et al. (2014), DOI 10.1037/a0032432 | L1 | Abstract reviewed; review and meta-analysis of preference predictive validity |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |

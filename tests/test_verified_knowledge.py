@@ -361,3 +361,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("四级", "14 天", "具体事件", "支持网络", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_dating_criteria_playbook_separates_hard_gates_from_preferences(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2014-eastwick-ideal-partner-preferences-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "dating-criteria-and-real-world-validation.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("硬门槛", "重要偏好", "三次", "外貌", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
