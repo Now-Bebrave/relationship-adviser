@@ -386,3 +386,15 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("自我不确定性", "伴侣不确定性", "关系不确定性", "排他", "14 天", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_dating_progression_playbook_requires_concrete_reciprocal_action(self) -> None:
+        note_path = ROOT / "knowledge" / "notes" / "2024-coduto-fox-mobile-dating-initiation-escalation.md"
+        playbook_path = ROOT / "knowledge" / "playbooks" / "dating-chat-to-real-world-progression.md"
+        self.assertTrue(note_path.exists())
+        self.assertTrue(playbook_path.exists())
+        note = note_path.read_text(encoding="utf-8")
+        playbook = playbook_path.read_text(encoding="utf-8")
+        self.assertIn("37", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("渠道编织", "两次明确邀约", "14 天", "互惠", "公开场所", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
