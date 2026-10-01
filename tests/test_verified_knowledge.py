@@ -316,3 +316,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("沉没成本", "14 天", "硬门槛", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_financial_infidelity_playbook_separates_privacy_from_shared_risk(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2020-garbinsky-financial-infidelity-romantic-relationships.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "financial-infidelity-and-money-transparency.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("共同账户", "72 小时", "三个月", "重大债务", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
