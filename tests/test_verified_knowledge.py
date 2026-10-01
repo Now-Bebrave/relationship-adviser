@@ -323,3 +323,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("共同账户", "72 小时", "三个月", "重大债务", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_power_playbook_distinguishes_negotiation_from_control(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2024-young-seedall-couple-power-dynamics-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "relationship-power-and-major-decision-audit.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("五问审计", "七天", "安全说不", "重大决定", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
