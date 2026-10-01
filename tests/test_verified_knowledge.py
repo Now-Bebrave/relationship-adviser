@@ -307,3 +307,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("性边界", "72 小时", "30 天", "停止第三方关系", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_commitment_playbook_rejects_sunk_cost_and_checks_hard_gates(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2003-le-agnew-investment-model-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "commitment-investment-and-exit-audit.md").read_text(encoding="utf-8")
+        self.assertIn("52 项研究", note)
+        self.assertIn("11,582", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("沉没成本", "14 天", "硬门槛", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
