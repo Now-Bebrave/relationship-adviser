@@ -291,3 +291,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("年龄", "六周", "生育", "催婚", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_online_dating_playbook_prioritizes_verification_and_first_date_safety(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2019-sharabi-caughlin-online-dating-deception.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "online-dating-verification-and-first-date-safety.md").read_text(encoding="utf-8")
+        self.assertIn("94", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("视频", "公共场所", "不转账", "Stop conditions", "验证码", "```mermaid"):
+            self.assertIn(marker, playbook)
