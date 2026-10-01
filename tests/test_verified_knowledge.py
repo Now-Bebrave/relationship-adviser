@@ -368,3 +368,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("硬门槛", "重要偏好", "三次", "外貌", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_relationship_pacing_playbook_requires_explicit_transition_decisions(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2006-stanley-rhoades-markman-sliding-deciding-cohabitation.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "relationship-pacing-and-transition-decisions.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("七个", "六问", "30 天", "退出成本", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
