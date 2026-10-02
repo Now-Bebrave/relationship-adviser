@@ -428,3 +428,8 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         playbook = (ROOT / "knowledge" / "playbooks" / "bride-price-and-wedding-budget-negotiation.md").read_text(encoding="utf-8")
         for marker in ("DOI 10.1037/str0000157", "总成本", "彩礼", "婚礼", "三种预算", "书面", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_reconstituted_family_playbook_stages_children_and_ex_partner_boundaries(self) -> None:
+        playbook = (ROOT / "knowledge" / "playbooks" / "reconstituted-family-and-stepfamily-audit.md").read_text(encoding="utf-8")
+        for marker in ("DOI 10.1037/fam0001149", "继亲", "前任", "孩子", "六周", "抚养", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
