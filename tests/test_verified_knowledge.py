@@ -643,3 +643,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("半结构访谈", note)
         self.assertIn("共同决策权", note)
         self.assertIn("10.1163/25895745-05020003", playbook)
+
+    def test_migration_marriage_timing_source_preserves_context_limits(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2019-mu-yeung-migration-marriage-timing-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "migration-housing-and-marriage-choice.md").read_text(encoding="utf-8")
+        self.assertIn("10.1080/1369183X.2019.1585009", note)
+        self.assertIn("混合方法", note)
+        self.assertIn("10.1080/1369183X.2019.1585009", playbook)
