@@ -583,3 +583,8 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         playbook = (ROOT / "knowledge" / "playbooks" / "sexual-consent-and-refusal-boundaries.md").read_text(encoding="utf-8")
         for marker in ("同意", "撤回", "拒绝", "压力", "疼痛", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_case_evidence_triage_separates_facts_from_interpretations(self) -> None:
+        playbook = (ROOT / "knowledge" / "playbooks" / "case-evidence-triage-and-decision-log.md").read_text(encoding="utf-8")
+        for marker in ("事实", "解释", "证据", "视频", "隐私", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
