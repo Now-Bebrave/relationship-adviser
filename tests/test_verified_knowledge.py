@@ -443,3 +443,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         playbook = (ROOT / "knowledge" / "playbooks" / "separation-financial-disentanglement-and-coparenting.md").read_text(encoding="utf-8")
         for marker in ("DOI 10.1037/fam0001149", "72 小时", "30 天", "共同账户", "债务", "孩子", "交接", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_childbearing_decision_playbook_requires_consent_and_capacity_audit(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2024-ranjbar-childbearing-decision-scoping-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "childbearing-intention-timing-and-capacity-audit.md").read_text(encoding="utf-8")
+        self.assertIn("46 studies", note)
+        self.assertIn("full_text_reviewed", note)
+        for marker in ("知情同意", "不生育", "六周", "职业", "住房", "育儿", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
