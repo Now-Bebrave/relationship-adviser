@@ -507,3 +507,14 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("full_text_reviewed", disclosure)
         for marker in ("当前共同风险", "私人细节", "婚史", "性健康", "14 天", "停止追问", "社交媒体", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_relationship_cycling_playbook_requires_change_before_reconciliation(self) -> None:
+        couples = (ROOT / "knowledge" / "notes" / "2014-vennum-relationship-cycling-cohabitation-marriage.md").read_text(encoding="utf-8")
+        distress = (ROOT / "knowledge" / "notes" / "2018-monk-relationship-cycling-distress.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "breakup-reconciliation-cycle-and-reentry-gates.md").read_text(encoding="utf-8")
+        self.assertIn("323 cohabiting", couples)
+        self.assertIn("752 married", couples)
+        self.assertIn("545 individuals", distress)
+        self.assertIn("abstract_reviewed", distress)
+        for marker in ("复合门槛", "结构性变化", "30 天", "不恢复", "沉没成本", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
