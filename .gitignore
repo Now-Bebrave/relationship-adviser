@@ -7,5 +7,6 @@ private-vault/**
 **/*.local.*
 **/raw-media/
 **/*.mp4
+!tests/fixtures/media/*.mp4
 **/*.mov
 **/*.mkv
