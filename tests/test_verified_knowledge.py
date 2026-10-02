@@ -497,3 +497,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("full_text_reviewed", couples)
         for marker in ("自愿", "隐瞒", "直播打赏", "两周", "不等于成瘾", "监控", "私密内容", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_past_relationship_playbook_separates_current_risk_from_private_detail(self) -> None:
+        jealousy = (ROOT / "knowledge" / "notes" / "2018-frampton-social-media-retroactive-jealousy.md").read_text(encoding="utf-8")
+        disclosure = (ROOT / "knowledge" / "notes" / "2021-ritter-sex-secret-disclosure.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "past-relationship-disclosure-and-retroactive-jealousy.md").read_text(encoding="utf-8")
+        self.assertIn("36 participants", jealousy)
+        self.assertIn("abstract_reviewed", jealousy)
+        self.assertIn("full_text_reviewed", disclosure)
+        for marker in ("当前共同风险", "私人细节", "婚史", "性健康", "14 天", "停止追问", "社交媒体", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
