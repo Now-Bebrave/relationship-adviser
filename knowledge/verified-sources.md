@@ -55,6 +55,8 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Relationship cycling and psychological distress | Monk, Ogolsky & Oswald (2018), DOI 10.1111/fare.12336 | L2 | Abstract reviewed; observational study of 545 people in same- and different-sex relationships |
 | Fear of being single and settling for less | Spielmann et al. (2013), DOI 10.1037/a0034628 | L1 | Abstract reviewed; multi-study research including scale validation, experiments, and longitudinal evidence |
 | Social pressure to partner and fear of being single | Sprecher & Felmlee (2021), DOI 10.5964/ijpr.6139 | L2 | Abstract reviewed; survey of 616 single adults ages 18–30, primarily in the U.S. |
+| Partner phubbing and relationship satisfaction | Roberts & David (2016), DOI 10.1016/j.chb.2015.07.058 | L2 | Abstract reviewed; observational study of phone interruption during romantic interactions |
+| Phubbing, loneliness and relationship satisfaction in Chinese adults | Zhan, Shrestha & Zhong (2022), DOI 10.3389/fpsyg.2022.967339 | L2 | Abstract reviewed; survey of 504 Chinese adults |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |

@@ -528,3 +528,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", fear)
         for marker in ("害怕单身", "伴侣匹配", "家庭压力", "14 天", "不因催婚", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_phone_boundaries_playbook_separates_phubbing_from_surveillance(self) -> None:
+        partner = (ROOT / "knowledge" / "notes" / "2016-roberts-david-partner-phubbing.md").read_text(encoding="utf-8")
+        chinese = (ROOT / "knowledge" / "notes" / "2022-zhan-phubbing-chinese-adults.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "phone-use-and-couple-attention-boundaries.md").read_text(encoding="utf-8")
+        self.assertIn("relationship satisfaction", partner)
+        self.assertIn("504 Chinese adults", chinese)
+        self.assertIn("abstract_reviewed", partner)
+        for marker in ("手机干扰", "回复边界", "14 天", "不等于监控", "共同时间", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
