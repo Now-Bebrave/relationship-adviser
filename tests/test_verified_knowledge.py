@@ -571,3 +571,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         playbook = (ROOT / "knowledge" / "playbooks" / "premarital-30-day-integrated-audit.md").read_text(encoding="utf-8")
         for marker in ("30 天", "外貌", "收入", "家庭", "城市", "性", "生育", "谁负责", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_secrecy_and_disclosure_playbook_separates_privacy_from_shared_risk(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2024-slepian-psychology-of-secrecy.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "privacy-secrecy-and-major-disclosure.md").read_text(encoding="utf-8")
+        self.assertIn("10.1177/09637214241226676", note)
+        for marker in ("共同风险", "个人隐私", "知情同意", "四周", "披露", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
