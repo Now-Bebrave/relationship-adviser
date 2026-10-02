@@ -665,3 +665,23 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("35 篇", note)
         self.assertIn("经济虐待", note)
         self.assertIn("10.1186/s12889-022-13297-4", playbook)
+
+    def test_new_integrated_guides_cover_pressure_authority_safety_migration_payment_and_care(self) -> None:
+        guides = {
+            "market": "marriage-market-pressure-and-decision-pacing.md",
+            "authority": "parental-involvement-and-couple-authority.md",
+            "safety": "economic-control-and-financial-safety-plan.md",
+            "migration": "migration-timing-and-marriage-roadmap.md",
+            "payment": "marriage-payment-type-and-risk-audit.md",
+            "care": "intergenerational-caregiving-and-gender-load-audit.md",
+        }
+        for name in guides.values():
+            text = (ROOT / "knowledge" / "playbooks" / name).read_text(encoding="utf-8")
+            for marker in ("Evidence base", "反应", "Stop conditions", "```mermaid"):
+                self.assertIn(marker, text, name)
+        self.assertIn("婚姻市场", (ROOT / "knowledge" / "playbooks" / guides["market"]).read_text(encoding="utf-8"))
+        self.assertIn("共同决策权", (ROOT / "knowledge" / "playbooks" / guides["authority"]).read_text(encoding="utf-8"))
+        self.assertIn("经济控制", (ROOT / "knowledge" / "playbooks" / guides["safety"]).read_text(encoding="utf-8"))
+        self.assertIn("90 天", (ROOT / "knowledge" / "playbooks" / guides["migration"]).read_text(encoding="utf-8"))
+        self.assertIn("四种支出类型", (ROOT / "knowledge" / "playbooks" / guides["payment"]).read_text(encoding="utf-8"))
+        self.assertIn("照护负荷", (ROOT / "knowledge" / "playbooks" / guides["care"]).read_text(encoding="utf-8"))
