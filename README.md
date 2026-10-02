@@ -1,18 +1,112 @@
 # Relationship Adviser
 
-Relationship Adviser is a portable, text-first skill for practical relationship decisions. The platform-independent rules live in `core/`; schemas and sanitized examples are public package content. Personal profiles, private cases, decision history, and raw media indexes belong in `private-vault/` and remain local.
+一个面向真实两性与亲密关系决策的跨平台知识库 Skill。它把研究、法律/官方资料、现实案例和可执行的行动指南放进同一套加载协议，帮助你分析从认识、恋爱、同居、结婚到婚后生活中的具体问题。
 
-The original media files stay in the user's MediaCrawler directory. This repository stores derived notes, timestamps, claims, and source indexes by reference rather than copying media.
+它关注的不只是沟通技巧，还会把外貌与吸引、收入与债务、住房和彩礼、城乡与迁移、父母介入、育儿与照护、性与生育、经济控制和关系退出放在同一张现实决策图里。
 
-The initial package is documentation-first and has no model or network dependency. Platform adapters load the same core rules and provide capability fallbacks for Codex, Claude Code, and WorkBuddy.
+## 它解决什么问题
 
-## Knowledge map
+你可以直接描述一个困扰，例如：
 
-- `knowledge/README.md`: knowledge-base navigation and loading order.
-- `knowledge/notes/`: verified research cards, with DOI, review status, usable claims, and limits.
-- `knowledge/books/`: verified book metadata and rules for using L2 material.
-- `knowledge/legal/`: official-law indexes and practical legal checklists.
-- `knowledge/playbooks/`: action sequences, scripts, reaction branches, and stop conditions derived from named evidence.
-- `knowledge/verified-sources.md`: public source register and verification depth.
-- `knowledge/rejected-sources.md`: retracted or disqualified sources that must not be reused.
-- `private-vault/`: local-only profile, personal cases, video notes, and media indexes; ignored by Git except for its README.
+> 对方希望我辞职去另一座城市结婚，但房子、父母照护和婚后收入都没有谈清楚，我该怎么判断？
+
+Skill 应按以下结构回答：
+
+1. 明确结论和当前建议；
+2. 分开事实、推断和未知信息；
+3. 给出有时间节点的执行步骤；
+4. 提供可以直接复制的话术；
+5. 预判对方或家人的反应，并给出回应；
+6. 用 Mermaid 流程图或表格展示分支；
+7. 写出停止条件、备选路径和信息缺口；
+8. 标明证据强度，不把群体研究写成个人诊断、性别定律或成功率保证。
+
+## 核心特点
+
+- **现实变量完整**：把关系质量与现金流、债务、住房、家庭结构、城乡流动、社会压力和机会成本一起分析。
+- **结论可以执行**：每个 playbook 都包含步骤、时间、话术、反应分支和 Stop conditions。
+- **证据分层**：研究卡片记录 DOI、核验状态、可用结论和外推限制；书籍、博主和视频作为背景或案例，不能替代研究。
+- **视频先笔记后解析**：已有图文笔记时优先整理笔记，原始媒体仍留在本地 MediaCrawler 目录。
+- **跨平台**：共享规则位于 `core/`，可由 Codex、Claude Code、WorkBuddy 等加载；没有图像生成能力时回退到 Mermaid、表格和纯文本。
+- **公开/私人分离**：个人档案、私人案例、决策历史、抓取索引和原始媒体不进入公开仓库。
+
+## 目录
+
+| 路径 | 内容 |
+|---|---|
+| `SKILL.md` | Skill 入口和统一输出协议 |
+| `core/` | 使命、证据边界、输出格式和安全规则 |
+| `knowledge/notes/` | 研究卡片：作者、DOI、证据状态、结论和限制 |
+| `knowledge/playbooks/` | 实用决策指南：步骤、话术、反应、停止条件和流程图 |
+| `knowledge/books/` | 书籍元数据及使用边界 |
+| `knowledge/legal/` | 法律与官方流程索引 |
+| `knowledge/verified-sources.md` | 公开来源登记表 |
+| `docs/video-ingestion-workflow.md` | 视频、图文笔记和案例整理流程 |
+| `adapters/` | Codex、Claude Code、WorkBuddy 的加载适配说明 |
+| `tools/` | 包结构、集成和视觉输出校验工具 |
+| `private-vault/` | 本地私人资料边界；目录内容不上传 |
+
+## 安装与使用
+
+```bash
+git clone https://github.com/Now-Bebrave/relationship-adviser.git
+cd relationship-adviser
+```
+
+在支持本地 Skill 的工具中，将仓库目录作为 Skill 根目录，或直接加载根目录的 `SKILL.md`，然后用自然语言描述问题。
+
+推荐加载顺序：先读 `core/mission.md` 和 `core/output.md`，再读相关 `knowledge/playbooks/`、`knowledge/notes/` 和 `knowledge/legal/`。只有在确实属于当前用户时才读取本地 `private-vault/`。
+
+提问示例：
+
+```text
+我和对象准备结婚。她父母要求彩礼、县城婚房和婚后照护，但房产和债务没有说清楚。请按“结论—证据—步骤—话术—对方反应—停止条件—备选方案”分析，并告诉我还缺哪些信息。
+```
+
+## 当前知识范围
+
+当前版本覆盖认识与择偶、吸引与外貌、依恋和冲突、同居与承诺、彩礼和婚礼预算、住房与债务、父母边界、迁移与婚姻时机、育儿、生育、性与健康、代际照护、情绪劳动、经济控制和关系退出。
+
+当前本地统计：85 条研究笔记、79 个实用指南、87 个来源 ID。数量会随资料核验持续变化，不能把数量当成证据质量本身。
+
+## 版本迭代
+
+### v1.0 — 基础跨平台包
+
+- 建立统一 Skill 入口、核心使命和输出格式；
+- 建立研究卡片、实用指南、来源登记和私人资料边界；
+- 提供 Codex、Claude Code、WorkBuddy 的适配说明；
+- 加入视频/图文笔记优先的资料整理流程。
+
+### v1.1 — 中国婚姻现实变量扩展
+
+- 增加农村婚姻支出、彩礼、婚房和支付纠纷研究；
+- 增加城乡迁移、婚姻时机、婚姻市场压力和家庭再制度化资料；
+- 将住房、债务、产权、父母出资和照护纳入婚姻决策审计；
+- 增加经济控制与财务安全的证据卡片。
+
+### v1.2 — 综合决策指南扩展（当前）
+
+- 新增婚姻市场压力与决策节奏、父母介入与共同决策权指南；
+- 新增经济控制与财务安全计划；
+- 新增迁移、住房与结婚时点 90 天路线图；
+- 新增婚姻支付类型与资产风险审计；
+- 新增代际照护与照护负荷审计；
+- 新增指南均包含反应分支、停止条件和 Mermaid 流程图。
+
+## 验证
+
+```bash
+python -m unittest discover -s tests -v
+python tools/validate_package.py
+python tools/check_integration.py
+git diff --check
+```
+
+## 隐私与边界
+
+公开仓库只保存可复用的研究卡片、脱敏案例、指南和工具说明。个人档案、聊天记录、私人案例、原始视频、抓取账号数据和本地媒体路径必须留在 `private-vault/` 或仓库外。遇到暴力、胁迫、经济控制、未成年人、急性心理危机或法律争议时，优先联系当地专业服务；Skill 不能替代紧急援助、医疗或法律意见。
+
+## 许可与贡献
+
+提交新资料时，请同时提供来源、核验状态、可用结论、外推限制和去标识化说明。不要提交未经授权的书籍全文、视频文件、平台账号数据或他人的私人信息。新增指南应保持“结论—证据—步骤—话术—反应—停止条件—备选方案”的结构。
