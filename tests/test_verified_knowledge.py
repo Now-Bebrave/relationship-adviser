@@ -460,3 +460,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("隐瞒", "频率", "前任", "两周", "不按性别", "监控", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_dating_money_playbook_separates_gifts_loans_and_shared_costs(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2023-lazarus-online-romance-fraud-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "dating-loans-transfers-and-gift-boundaries.md").read_text(encoding="utf-8")
+        self.assertIn("26 empirical studies", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("赠与", "借款", "共同消费", "24 小时", "不追加", "凭证", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
