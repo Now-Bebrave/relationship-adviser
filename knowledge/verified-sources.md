@@ -69,6 +69,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Modern arranged marriage and mosaic familialism in Shanghai | Ji, Lin, Liu & Kang (2024), DOI 10.1163/25895745-05020003 | L2 | Abstract reviewed; semi-structured interviews with recently married young people and parents |
 | Internal migration, marriage timing and assortative mating in China | Mu & Yeung (2019), DOI 10.1080/1369183X.2019.1585009 | L2 | Abstract reviewed; 2012 CFPS analysis plus in-depth interviews in Beijing |
 | China marriage squeeze by age and sex structure | Jiang, Li, Li & Feldman (2016), DOI 10.1007/s11205-015-0981-y | L2 | Abstract reviewed; demographic decomposition using a spousal sex-ratio index |
+| Economic abuse impacts among IPV survivors | Adams et al. (2022), DOI 10.1186/s12889-022-13297-4 | L1 | Abstract reviewed; scoping review of 35 peer-reviewed manuscripts across 14 databases |
 | Autonomy, relatedness and attachment security | La Guardia et al. (2000), DOI 10.1037/0022-3514.79.3.367 | L1 | Abstract reviewed; multi-study research on need fulfillment, attachment security and well-being |
 | Solitude and socializing balance | Weinstein et al. (2023), DOI 10.1038/s41598-023-44507-7 | L2 | Abstract reviewed; 21-day diary study of 178 participants |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |

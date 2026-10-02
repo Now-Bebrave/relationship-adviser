@@ -2,7 +2,7 @@
 
 ## Evidence base
 
-The USPSTF review, DOI 10.1001/jama.2018.14741, found moderate net benefit for screening women of reproductive age and providing ongoing support or referral when screening is positive. Information-only handouts were not sufficient evidence of benefit. This is a clinical evidence summary, not a substitute for local emergency or legal services.
+The USPSTF review, DOI 10.1001/jama.2018.14741, found moderate net benefit for screening women of reproductive age and providing ongoing support or referral when screening is positive. Adams et al.（2022，DOI 10.1186/s12889-022-13297-4）的范围综述指出，经济虐待会控制伴侣获取、使用和维持资源，并影响健康、财务、亲子互动和生活质量。Information-only handouts were not sufficient evidence of benefit. This is a clinical evidence summary, not a substitute for local emergency or legal services.
 
 ## 私下筛查原则
 

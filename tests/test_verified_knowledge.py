@@ -657,3 +657,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("10.1007/s11205-015-0981-y", note)
         self.assertIn("宏观", note)
         self.assertIn("10.1007/s11205-015-0981-y", playbook)
+
+    def test_economic_abuse_source_strengthens_safety_screening(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2022-adams-economic-abuse-ipv-scoping-review.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "ipv-screening-and-support.md").read_text(encoding="utf-8")
+        self.assertIn("10.1186/s12889-022-13297-4", note)
+        self.assertIn("35 篇", note)
+        self.assertIn("经济虐待", note)
+        self.assertIn("10.1186/s12889-022-13297-4", playbook)
