@@ -650,3 +650,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("10.1080/1369183X.2019.1585009", note)
         self.assertIn("混合方法", note)
         self.assertIn("10.1080/1369183X.2019.1585009", playbook)
+
+    def test_marriage_squeeze_source_stays_macro_and_non_deterministic(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2016-jiang-li-feldman-china-marriage-squeeze.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "partner-matching-and-real-world-fit.md").read_text(encoding="utf-8")
+        self.assertIn("10.1007/s11205-015-0981-y", note)
+        self.assertIn("宏观", note)
+        self.assertIn("10.1007/s11205-015-0981-y", playbook)
