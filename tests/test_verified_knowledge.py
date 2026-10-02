@@ -433,3 +433,8 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         playbook = (ROOT / "knowledge" / "playbooks" / "reconstituted-family-and-stepfamily-audit.md").read_text(encoding="utf-8")
         for marker in ("DOI 10.1037/fam0001149", "继亲", "前任", "孩子", "六周", "抚养", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_marital_intimacy_maintenance_playbook_uses_reversible_experiment(self) -> None:
+        playbook = (ROOT / "knowledge" / "playbooks" / "marital-intimacy-maintenance-and-repair.md").read_text(encoding="utf-8")
+        for marker in ("DOI 10.1037/bul0000342", "亲密", "性", "睡眠", "30 天", "反应", "停止条件", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
