@@ -518,3 +518,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", distress)
         for marker in ("复合门槛", "结构性变化", "30 天", "不恢复", "沉没成本", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_fear_of_singlehood_playbook_separates_pressure_from_partner_fit(self) -> None:
+        fear = (ROOT / "knowledge" / "notes" / "2013-spielmann-fear-of-being-single.md").read_text(encoding="utf-8")
+        pressure = (ROOT / "knowledge" / "notes" / "2021-sprecher-felmlee-social-pressure-singlehood.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "fear-of-singlehood-and-partner-choice-audit.md").read_text(encoding="utf-8")
+        self.assertIn("longitudinal", fear)
+        self.assertIn("616 single", pressure)
+        self.assertIn("abstract_reviewed", fear)
+        for marker in ("害怕单身", "伴侣匹配", "家庭压力", "14 天", "不因催婚", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
