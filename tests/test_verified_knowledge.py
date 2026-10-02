@@ -546,3 +546,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("收入冲击", "90 天", "应急金", "责任转移", "不等于控制", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_parenting_conflict_playbook_protects_children_from_triangular_conflict(self) -> None:
+        conflict = (ROOT / "knowledge" / "notes" / "2020-van_eldik-interparental-conflict-meta-analysis.md").read_text(encoding="utf-8")
+        grandparent = (ROOT / "knowledge" / "notes" / "2021-liang-grandmother-coparenting-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "parenting-values-and-grandparent-boundaries.md").read_text(encoding="utf-8")
+        self.assertIn("169 studies", conflict)
+        self.assertIn("60 children", grandparent)
+        self.assertIn("abstract_reviewed", conflict)
+        for marker in ("孩子面前", "祖辈", "两周", "不让孩子传话", "共同规则", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
