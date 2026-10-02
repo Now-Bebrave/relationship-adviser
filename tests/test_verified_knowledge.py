@@ -613,3 +613,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("10.7%", note)
         self.assertIn("观察性研究", note)
         self.assertIn("10.3390/su132313058", playbook)
+
+    def test_bride_price_gender_role_source_preserves_qualitative_limits(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2023-chen-pan-bride-price-gender-role-rural-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "bride-price-and-wedding-budget-negotiation.md").read_text(encoding="utf-8")
+        self.assertIn("10.1016/j.heliyon.2022.e12789", note)
+        self.assertIn("四个省份", note)
+        self.assertIn("质性研究", note)
+        self.assertIn("10.1016/j.heliyon.2022.e12789", playbook)
