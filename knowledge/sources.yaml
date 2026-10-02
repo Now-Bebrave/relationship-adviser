@@ -419,3 +419,8 @@ sources:
     topic: "field cases"
     target_evidence_level: "L3-L4"
     verification_status: "candidate"
+  - title: "Are high marriage expenses delaying age at first marriage? Evidence from Chinese rural migrant men"
+    topic: "marriage expenses rural migration and marriage timing in China"
+    target_evidence_level: "L2"
+    verification_status: "candidate_metadata_pending"
+    source_id: "DOI:10.1111/fare.12909"
