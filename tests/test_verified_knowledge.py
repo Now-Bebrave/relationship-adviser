@@ -487,3 +487,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", loot_boxes)
         for marker in ("追损", "72 小时", "游戏氪金", "债务", "账户", "专业", "暴力", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_pornography_boundary_playbook_distinguishes_use_from_harm(self) -> None:
+        meta = (ROOT / "knowledge" / "notes" / "2017-wright-pornography-satisfaction-meta-analysis.md").read_text(encoding="utf-8")
+        couples = (ROOT / "knowledge" / "notes" / "2021-kohut-couple-pornography-context.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "pornography-live-content-and-sexual-boundaries.md").read_text(encoding="utf-8")
+        self.assertIn("50 studies", meta)
+        self.assertIn("50,000", meta)
+        self.assertIn("full_text_reviewed", couples)
+        for marker in ("自愿", "隐瞒", "直播打赏", "两周", "不等于成瘾", "监控", "私密内容", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
