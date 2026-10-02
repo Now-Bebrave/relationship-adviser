@@ -566,3 +566,8 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", needs)
         for marker in ("独处", "个人空间", "7 天", "回归时间", "不等于冷暴力", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_premarital_integrated_audit_covers_real_world_decision_factors(self) -> None:
+        playbook = (ROOT / "knowledge" / "playbooks" / "premarital-30-day-integrated-audit.md").read_text(encoding="utf-8")
+        for marker in ("30 天", "外貌", "收入", "家庭", "城市", "性", "生育", "谁负责", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
