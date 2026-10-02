@@ -444,3 +444,8 @@ sources:
     target_evidence_level: "L2"
     verification_status: "abstract_reviewed"
     source_id: "DOI:10.3390/su14148666"
+  - title: "Family Reinstitutionalization in the Early 21st Century China: Bilateralism, Intergenerational Caregiving, and Filial Piety"
+    topic: "Chinese family change bilateral kinship and intergenerational caregiving"
+    target_evidence_level: "L2"
+    verification_status: "abstract_reviewed"
+    source_id: "DOI:10.1111/soc4.70050"

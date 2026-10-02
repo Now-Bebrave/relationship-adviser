@@ -628,3 +628,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("10.3390/su14148666", note)
         self.assertIn("四种支出类型", note)
         self.assertIn("10.3390/su14148666", playbook)
+
+    def test_china_family_reinstitutionalization_source_expands_caregiving_audit(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2025-ji-family-reinstitutionalization-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "parent-care-and-inlaw-responsibility-audit.md").read_text(encoding="utf-8")
+        self.assertIn("10.1111/soc4.70050", note)
+        self.assertIn("双边家庭", note)
+        self.assertIn("10.1111/soc4.70050", playbook)
