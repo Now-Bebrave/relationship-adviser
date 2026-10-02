@@ -42,6 +42,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Intergenerational support and parental caregiving | Fingerman et al. (2012), DOI 10.1093/geront/gnr139 | L2 | Abstract reviewed; review of multiple U.S. intergenerational studies and caregiving contexts |
 | Ambivalence toward aging parents and in-laws | Willson, Shuey & Elder (2003), DOI 10.1111/j.1741-3737.2003.01055.x | L2 | Abstract reviewed; multilevel study of 1,599 adult children and parent/in-law relationships |
 | Childbearing decisions and fertility intentions | Ranjbar et al. (2024), DOI 10.1186/s12884-024-06385-3 | L1 | Open full text reviewed; systematic scoping review of 46 studies and eight factor domains |
+| Extradyadic behavior, secrecy, and boundary judgments | Salavati & Boon (2024), DOI 10.1111/pere.12532 | L2 | Abstract reviewed; 135 participants rated 30 direct-message vignettes |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |

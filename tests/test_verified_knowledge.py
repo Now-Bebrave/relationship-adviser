@@ -451,3 +451,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("full_text_reviewed", note)
         for marker in ("知情同意", "不生育", "六周", "职业", "住房", "育儿", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_ex_partner_boundary_playbook_uses_behavior_not_gender_bans(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2024-salavati-boon-extradyadic-behavior-judgments.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "ex-partner-and-potential-attraction-boundaries.md").read_text(encoding="utf-8")
+        self.assertIn("135 participants", note)
+        self.assertIn("30 vignettes", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("隐瞒", "频率", "前任", "两周", "不按性别", "监控", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
