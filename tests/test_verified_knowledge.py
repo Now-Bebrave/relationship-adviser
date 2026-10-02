@@ -468,3 +468,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("赠与", "借款", "共同消费", "24 小时", "不追加", "凭证", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_age_resource_gap_playbook_audits_power_not_age_alone(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2018-lee-mckinnish-age-gap-marital-satisfaction.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "age-income-and-resource-gap-power-audit.md").read_text(encoding="utf-8")
+        self.assertIn("3,374 couples", note)
+        self.assertIn("18,987 couple-years", note)
+        self.assertIn("full_text_reviewed", note)
+        for marker in ("年龄差本身", "收入", "决定权", "职业", "退出能力", "30 天", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)

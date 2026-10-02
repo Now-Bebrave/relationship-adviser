@@ -44,6 +44,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Childbearing decisions and fertility intentions | Ranjbar et al. (2024), DOI 10.1186/s12884-024-06385-3 | L1 | Open full text reviewed; systematic scoping review of 46 studies and eight factor domains |
 | Extradyadic behavior, secrecy, and boundary judgments | Salavati & Boon (2024), DOI 10.1111/pere.12532 | L2 | Abstract reviewed; 135 participants rated 30 direct-message vignettes |
 | Online romance fraud empirical research | Lazarus et al. (2023), DOI 10.1016/j.jeconc.2023.100013 | L1 | Abstract reviewed; systematic review of 26 empirical studies from 2000–2021 |
+| Age-gap couples and marital satisfaction | Lee & McKinnish (2018), DOI 10.1007/s00148-017-0658-8 | L2 | Open full text reviewed; Australian panel of 3,374 couples and 18,987 couple-years |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
