@@ -1,0 +1,30 @@
+title: Public Case Card
+required:
+  - case_id
+  - source
+  - topic
+  - context
+  - facts
+  - claims
+  - actions
+  - reactions
+  - result
+  - limits
+  - privacy
+fields:
+  case_id: "稳定、不可识别的编号"
+  source: "平台、标题、URL、发布日期或来源说明"
+  topic: "一个主类和可选副标签"
+  context: "人物关系和决策场景，去除可识别信息"
+  facts: "已核验事实；把当事人叙述单独标为叙述"
+  claims: "作者/当事人的观点，不当作事实"
+  actions: "采取过的具体行动及时间"
+  reactions: "对方或家庭的可观察反应"
+  result: "短期结果和长期结果；未知则写 unknown"
+  limits: "不能从此案例推导的结论"
+  privacy: "脱敏状态、原始媒体位置和授权边界"
+evidence_levels:
+  L1: "公开事实或官方记录"
+  L2: "公开内容中的可追溯叙述"
+  L3: "观点型视频、个人经验或未独立核验案例"
+
