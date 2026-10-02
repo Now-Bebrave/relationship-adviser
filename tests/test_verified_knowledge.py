@@ -405,3 +405,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("共同风险", "知情同意", "个人隐私", "四周", "婚史", "债务", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_housing_ownership_playbook_separates_affordability_from_title(self) -> None:
+        affordability = (ROOT / "knowledge" / "notes" / "2019-krapf-wagner-housing-affordability-union-dissolution.md").read_text(encoding="utf-8")
+        assets = (ROOT / "knowledge" / "notes" / "2019-deng-hoekstra-elsinga-women-housing-assets-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "housing-ownership-and-joint-purchase-audit.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", affordability)
+        self.assertIn("abstract_reviewed", assets)
+        for marker in ("产权", "首付", "父母出资", "还贷", "退出", "30 天", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
