@@ -588,3 +588,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         playbook = (ROOT / "knowledge" / "playbooks" / "case-evidence-triage-and-decision-log.md").read_text(encoding="utf-8")
         for marker in ("事实", "解释", "证据", "视频", "隐私", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_marriage_expense_source_is_metadata_verified_and_limited(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2023-duan-jin-sun-teng-marriage-expenses-rural-migrants.md").read_text(encoding="utf-8")
+        sources = (ROOT / "knowledge" / "sources.yaml").read_text(encoding="utf-8")
+        verified = (ROOT / "knowledge" / "verified-sources.md").read_text(encoding="utf-8")
+        self.assertIn("10.1111/fare.12909", note)
+        self.assertIn("1,391", note)
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("10.1111/fare.12909", sources)
+        self.assertIn("10.1111/fare.12909", verified)

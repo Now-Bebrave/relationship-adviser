@@ -60,6 +60,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Unemployment and wellbeing | Gedikli et al. (2022), DOI 10.1080/1359432X.2022.2106855 | L1 | Abstract reviewed; longitudinal meta-analysis of 29 studies and 46 samples |
 | Interparental conflict and child adjustment | van Eldik et al. (2020), DOI 10.1037/bul0000233 | L1 | Abstract reviewed; meta-analysis of 169 studies on child maladjustment and 61 studies on child responses to conflict |
 | Grandparent coparenting in China | Liang et al. (2021), DOI 10.1002/cad.20442 | L2 | Abstract reviewed; longitudinal study of 60 children in Beijing multigenerational families |
+| Marriage expenses and first-marriage timing among Chinese rural migrant men | Duan, Jin, Sun & Teng (2023), DOI 10.1111/fare.12909 | L2 | Abstract reviewed; regression study of 1,391 rural migrant men using 2018 data |
 | Autonomy, relatedness and attachment security | La Guardia et al. (2000), DOI 10.1037/0022-3514.79.3.367 | L1 | Abstract reviewed; multi-study research on need fulfillment, attachment security and well-being |
 | Solitude and socializing balance | Weinstein et al. (2023), DOI 10.1038/s41598-023-44507-7 | L2 | Abstract reviewed; 21-day diary study of 178 participants |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
