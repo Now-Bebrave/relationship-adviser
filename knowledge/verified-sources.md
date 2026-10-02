@@ -35,6 +35,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Sliding versus deciding in relationship transitions | Stanley, Rhoades & Markman (2006), DOI 10.1111/j.1741-3729.2006.00418.x | L2 | Abstract reviewed; conceptual review of cohabitation inertia and constraints |
 | Relational uncertainty in dating relationships | Knobloch & Solomon (1999), DOI 10.1080/10510979909388499 | L2 | Abstract reviewed; measurement study distinguishing self, partner, and relationship uncertainty |
 | Dating-app relationship initiation and escalation | Coduto & Fox (2024), DOI 10.1177/02654075241265064 | L2 | Abstract reviewed; 37 in-depth interviews on channel transitions and relationship goals |
+| Secrecy and relational well-being | Slepian (2024), DOI 10.1177/09637214241226676 | L2 | Abstract reviewed; narrative review of secrecy, concealment, well-being, and disclosure |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |

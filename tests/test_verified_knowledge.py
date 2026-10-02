@@ -398,3 +398,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         for marker in ("渠道编织", "两次明确邀约", "14 天", "互惠", "公开场所", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_premarital_disclosure_playbook_separates_risk_from_privacy(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2024-slepian-psychology-of-secrecy.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "premarital-major-facts-disclosure-and-verification.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("共同风险", "知情同意", "个人隐私", "四周", "婚史", "债务", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
