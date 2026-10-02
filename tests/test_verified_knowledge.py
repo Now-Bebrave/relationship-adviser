@@ -578,3 +578,8 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("10.1177/09637214241226676", note)
         for marker in ("共同风险", "个人隐私", "知情同意", "四周", "披露", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_sexual_consent_playbook_covers_withdrawal_and_pressure(self) -> None:
+        playbook = (ROOT / "knowledge" / "playbooks" / "sexual-consent-and-refusal-boundaries.md").read_text(encoding="utf-8")
+        for marker in ("同意", "撤回", "拒绝", "压力", "疼痛", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
