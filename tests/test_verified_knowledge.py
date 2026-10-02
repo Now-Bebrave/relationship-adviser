@@ -621,3 +621,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("四个省份", note)
         self.assertIn("质性研究", note)
         self.assertIn("10.1016/j.heliyon.2022.e12789", playbook)
+
+    def test_marriage_expense_types_source_supports_budget_categories(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2022-duan-jin-teng-marriage-expense-types-rural-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "bride-price-and-wedding-budget-negotiation.md").read_text(encoding="utf-8")
+        self.assertIn("10.3390/su14148666", note)
+        self.assertIn("四种支出类型", note)
+        self.assertIn("10.3390/su14148666", playbook)

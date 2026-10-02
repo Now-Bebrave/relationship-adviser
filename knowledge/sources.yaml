@@ -439,3 +439,8 @@ sources:
     target_evidence_level: "L2"
     verification_status: "abstract_reviewed"
     source_id: "DOI:10.1016/j.heliyon.2022.e12789"
+  - title: "Typological Features and Determinants of Men's Marriage Expenses in Rural China: Evidence from a Village-Level Survey"
+    topic: "rural China marriage expense types housing bride price and urbanization"
+    target_evidence_level: "L2"
+    verification_status: "abstract_reviewed"
+    source_id: "DOI:10.3390/su14148666"
