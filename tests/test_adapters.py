@@ -7,6 +7,15 @@ ROOT = Path(__file__).parents[1]
 
 
 class AdapterTests(unittest.TestCase):
+    def test_root_skill_entry_is_installable(self) -> None:
+        skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+        self.assertIn("name: relationship-adviser", skill)
+        self.assertIn("core/mission.md", skill)
+        self.assertIn("knowledge/playbooks/", skill)
+        install = (ROOT / "docs" / "INSTALL.md").read_text(encoding="utf-8")
+        self.assertIn("relationship-adviser", install)
+        self.assertIn("git clone", install)
+
     def test_manifest_lists_all_targets(self) -> None:
         manifest = json.loads((ROOT / "adapters" / "manifest.json").read_text(encoding="utf-8"))
         self.assertEqual(set(manifest["platforms"]), {"codex", "claude-code", "workbuddy"})
