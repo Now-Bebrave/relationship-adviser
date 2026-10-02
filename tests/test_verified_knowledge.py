@@ -438,3 +438,8 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         playbook = (ROOT / "knowledge" / "playbooks" / "marital-intimacy-maintenance-and-repair.md").read_text(encoding="utf-8")
         for marker in ("DOI 10.1037/bul0000342", "亲密", "性", "睡眠", "30 天", "反应", "停止条件", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_separation_playbook_separates_financial_exit_from_coparenting(self) -> None:
+        playbook = (ROOT / "knowledge" / "playbooks" / "separation-financial-disentanglement-and-coparenting.md").read_text(encoding="utf-8")
+        for marker in ("DOI 10.1037/fam0001149", "72 小时", "30 天", "共同账户", "债务", "孩子", "交接", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
