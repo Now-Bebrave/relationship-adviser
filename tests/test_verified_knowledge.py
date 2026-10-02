@@ -477,3 +477,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("full_text_reviewed", note)
         for marker in ("年龄差本身", "收入", "决定权", "职业", "退出能力", "30 天", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_gambling_spending_playbook_stops_debt_escalation_and_prioritizes_safety(self) -> None:
+        review = (ROOT / "knowledge" / "notes" / "2022-hing-gambling-family-violence-review.md").read_text(encoding="utf-8")
+        loot_boxes = (ROOT / "knowledge" / "notes" / "2021-garea-loot-box-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "gambling-speculation-and-game-spending-boundaries.md").read_text(encoding="utf-8")
+        self.assertIn("46 journal articles", review)
+        self.assertIn("full_text_reviewed", review)
+        self.assertIn("abstract_reviewed", loot_boxes)
+        for marker in ("追损", "72 小时", "游戏氪金", "债务", "账户", "专业", "暴力", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
