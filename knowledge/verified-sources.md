@@ -22,6 +22,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Gender-role congruence and relationship satisfaction | Park et al. (2025), DOI 10.1093/pnasnexus/pgae589 | L2 | Abstract reviewed; partner gender-role attitude congruence and satisfaction |
 | Body dissatisfaction and romantic relationship quality | Stiles et al. (2023), DOI 10.1177/02654075221128504 | L1 | Abstract reviewed; meta-analysis of 56 studies |
 | Marriage timing and social pressure in urban China | Yu & Xie (2015), DOI 10.1007/s13524-015-0432-z | L2 | Abstract reviewed; population study of marriage entry over six decades |
+| Bride-price disputes and evidence factors in China | Supreme People's Court, 法释〔2024〕1号 | L1 | Official text reviewed; purpose, payment, recipient, cohabitation, use, and financial circumstances are fact-sensitive |
 | Online dating deception and first-date outcomes | Sharabi & Caughlin (2019), DOI 10.1177/1461444818792425 | L2 | Abstract reviewed; longitudinal study of 94 online daters |
 | Infidelity definitions and prevalence | Warach et al. (2024), DOI 10.1111/pere.12571 | L1 | Abstract reviewed; systematic review and meta-analysis of 305 studies |
 | Commitment and investment model | Le & Agnew (2003), DOI 10.1111/1475-6811.00035 | L1 | Abstract reviewed; meta-analysis of 52 studies, 60 samples, and 11,582 participants |

@@ -423,3 +423,8 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", ambivalence)
         for marker in ("金额上限", "时间", "兄弟姐妹", "备用人", "六周", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_wedding_budget_playbook_separates_bride_price_from_total_cost(self) -> None:
+        playbook = (ROOT / "knowledge" / "playbooks" / "bride-price-and-wedding-budget-negotiation.md").read_text(encoding="utf-8")
+        for marker in ("DOI 10.1037/str0000157", "总成本", "彩礼", "婚礼", "三种预算", "书面", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
