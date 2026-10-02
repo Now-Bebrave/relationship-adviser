@@ -66,6 +66,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Bride price and gender role in rural China | Chen & Pan (2023), DOI 10.1016/j.heliyon.2022.e12789 | L2 | Abstract reviewed; qualitative study across four rural Chinese provinces |
 | Types and determinants of rural China marriage expenses | Duan, Jin & Teng (2022), DOI 10.3390/su14148666 | L2 | Abstract reviewed; 2018 village survey with latent-profile and regression analyses |
 | Family reinstitutionalization and intergenerational caregiving in China | Ji (2025), DOI 10.1111/soc4.70050 | L2 | Abstract reviewed; narrative review of bilateralism, caregiving and filial piety |
+| Modern arranged marriage and mosaic familialism in Shanghai | Ji, Lin, Liu & Kang (2024), DOI 10.1163/25895745-05020003 | L2 | Abstract reviewed; semi-structured interviews with recently married young people and parents |
 | Autonomy, relatedness and attachment security | La Guardia et al. (2000), DOI 10.1037/0022-3514.79.3.367 | L1 | Abstract reviewed; multi-study research on need fulfillment, attachment security and well-being |
 | Solitude and socializing balance | Weinstein et al. (2023), DOI 10.1038/s41598-023-44507-7 | L2 | Abstract reviewed; 21-day diary study of 178 participants |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |

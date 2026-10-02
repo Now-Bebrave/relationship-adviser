@@ -449,3 +449,8 @@ sources:
     target_evidence_level: "L2"
     verification_status: "abstract_reviewed"
     source_id: "DOI:10.1111/soc4.70050"
+  - title: "Young Chinese's Modern Arranged Marriage and Mosaic Familialism in Shanghai"
+    topic: "parental involvement and modern arranged marriage in urban China"
+    target_evidence_level: "L2"
+    verification_status: "abstract_reviewed"
+    source_id: "DOI:10.1163/25895745-05020003"

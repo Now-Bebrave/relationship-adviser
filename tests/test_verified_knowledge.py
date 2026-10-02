@@ -635,3 +635,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("10.1111/soc4.70050", note)
         self.assertIn("双边家庭", note)
         self.assertIn("10.1111/soc4.70050", playbook)
+
+    def test_shanghai_modern_arranged_marriage_source_preserves_couple_decision_rights(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2024-ji-lin-liu-kang-modern-arranged-marriage-shanghai.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "social-network-approval-and-relationship-decisions.md").read_text(encoding="utf-8")
+        self.assertIn("10.1163/25895745-05020003", note)
+        self.assertIn("半结构访谈", note)
+        self.assertIn("共同决策权", note)
+        self.assertIn("10.1163/25895745-05020003", playbook)
