@@ -598,3 +598,10 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", note)
         self.assertIn("10.1111/fare.12909", sources)
         self.assertIn("10.1111/fare.12909", verified)
+
+    def test_marriage_payment_legal_analysis_is_metadata_verified(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2020-zhang-marriage-money-chinese-payment-lawsuits.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "bride-price-and-wedding-budget-negotiation.md").read_text(encoding="utf-8")
+        self.assertIn("10.5070/l3272051563", note)
+        self.assertIn("metadata_verified", note)
+        self.assertIn("10.5070/l3272051563", playbook)
