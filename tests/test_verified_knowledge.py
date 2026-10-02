@@ -556,3 +556,13 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", conflict)
         for marker in ("孩子面前", "祖辈", "两周", "不让孩子传话", "共同规则", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_personal_space_playbook_separates_autonomy_from_withdrawal(self) -> None:
+        needs = (ROOT / "knowledge" / "notes" / "2000-laguardia-autonomy-relatedness-attachment.md").read_text(encoding="utf-8")
+        solitude = (ROOT / "knowledge" / "notes" / "2023-weinstein-solitude-wellbeing.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "personal-space-and-relationship-boundaries.md").read_text(encoding="utf-8")
+        self.assertIn("autonomy", needs)
+        self.assertIn("178", solitude)
+        self.assertIn("abstract_reviewed", needs)
+        for marker in ("独处", "个人空间", "7 天", "回归时间", "不等于冷暴力", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
