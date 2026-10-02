@@ -414,3 +414,12 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", assets)
         for marker in ("产权", "首付", "父母出资", "还贷", "退出", "30 天", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_parent_care_playbook_requires_budget_time_and_backup_responsibility(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2012-fingerman-intergenerational-relationships.md").read_text(encoding="utf-8")
+        ambivalence = (ROOT / "knowledge" / "notes" / "2003-willson-shuey-elder-parent-inlaw-ambivalence.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "parent-care-and-inlaw-responsibility-audit.md").read_text(encoding="utf-8")
+        self.assertIn("abstract_reviewed", note)
+        self.assertIn("abstract_reviewed", ambivalence)
+        for marker in ("金额上限", "时间", "兄弟姐妹", "备用人", "六周", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)

@@ -38,6 +38,8 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Secrecy and relational well-being | Slepian (2024), DOI 10.1177/09637214241226676 | L2 | Abstract reviewed; narrative review of secrecy, concealment, well-being, and disclosure |
 | Housing affordability and union dissolution | Krapf & Wagner (2020), DOI 10.1007/s10680-019-09549-6 | L2 | Abstract reviewed; German panel of 3,441 coresidential partnerships over seven years |
 | Gendered housing assets and intergenerational transfers in China | Deng, Hoekstra & Elsinga (2019), DOI 10.1007/s10901-018-9619-0 | L2 | Abstract reviewed; 31 interviews in Chongqing on women, housing assets, and family transfers |
+| Intergenerational support and parental caregiving | Fingerman et al. (2012), DOI 10.1093/geront/gnr139 | L2 | Abstract reviewed; review of multiple U.S. intergenerational studies and caregiving contexts |
+| Ambivalence toward aging parents and in-laws | Willson, Shuey & Elder (2003), DOI 10.1111/j.1741-3737.2003.01055.x | L2 | Abstract reviewed; multilevel study of 1,599 adult children and parent/in-law relationships |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |
 | Household/childcare labor, fairness, and conflict | Newkirk, Perry-Jenkins & Sayer (2017), DOI 10.1007/s11199-016-0604-3 | L1 | Open full text reviewed; longitudinal observational study |
 | Bank-account structure and relationship dynamics | Olson et al. (2023), DOI 10.1093/jcr/ucad020 | L1 | Abstract reviewed; six-wave randomized longitudinal experiment |
