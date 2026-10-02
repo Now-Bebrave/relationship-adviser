@@ -62,6 +62,7 @@ Metadata verification means title, authors, venue, year, and DOI were checked ag
 | Grandparent coparenting in China | Liang et al. (2021), DOI 10.1002/cad.20442 | L2 | Abstract reviewed; longitudinal study of 60 children in Beijing multigenerational families |
 | Marriage expenses and first-marriage timing among Chinese rural migrant men | Duan, Jin, Sun & Teng (2023), DOI 10.1111/fare.12909 | L2 | Abstract reviewed; regression study of 1,391 rural migrant men using 2018 data |
 | Chinese marriage payment lawsuits and agency | Zhang (2020), DOI 10.5070/l3272051563 | L2 | Metadata verified; legal analysis of marriage-payment litigation, agency and economic framing |
+| Love match, marriage distance and rural China marriage payments | Lyu & Zhang (2021), DOI 10.3390/su132313058 | L2 | Abstract reviewed; models using a near-national rural China sample spanning 70 years |
 | Autonomy, relatedness and attachment security | La Guardia et al. (2000), DOI 10.1037/0022-3514.79.3.367 | L1 | Abstract reviewed; multi-study research on need fulfillment, attachment security and well-being |
 | Solitude and socializing balance | Weinstein et al. (2023), DOI 10.1038/s41598-023-44507-7 | L2 | Abstract reviewed; 21-day diary study of 178 participants |
 | Financial worry and perceived partner behavior | Peetz, Fisher-Skau & Joel (2024), DOI 10.1177/02654075241227454 | L1 | Open full text reviewed; two dyadic studies |

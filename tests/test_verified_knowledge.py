@@ -605,3 +605,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("10.5070/l3272051563", note)
         self.assertIn("metadata_verified", note)
         self.assertIn("10.5070/l3272051563", playbook)
+
+    def test_love_match_marriage_payment_source_is_limited_to_rural_associations(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2021-lyu-zhang-love-match-marriage-payment-rural-china.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "bride-price-and-wedding-budget-negotiation.md").read_text(encoding="utf-8")
+        self.assertIn("10.3390/su132313058", note)
+        self.assertIn("10.7%", note)
+        self.assertIn("观察性研究", note)
+        self.assertIn("10.3390/su132313058", playbook)
