@@ -538,3 +538,11 @@ class VerifiedKnowledgeTests(unittest.TestCase):
         self.assertIn("abstract_reviewed", partner)
         for marker in ("手机干扰", "回复边界", "14 天", "不等于监控", "共同时间", "反应", "Stop conditions", "```mermaid"):
             self.assertIn(marker, playbook)
+
+    def test_job_loss_playbook_separates_temporary_shock_from_control(self) -> None:
+        note = (ROOT / "knowledge" / "notes" / "2022-gedikli-unemployment-wellbeing-meta-analysis.md").read_text(encoding="utf-8")
+        playbook = (ROOT / "knowledge" / "playbooks" / "unemployment-income-shock-and-couple-decision-audit.md").read_text(encoding="utf-8")
+        self.assertIn("46 samples", note)
+        self.assertIn("abstract_reviewed", note)
+        for marker in ("收入冲击", "90 天", "应急金", "责任转移", "不等于控制", "反应", "Stop conditions", "```mermaid"):
+            self.assertIn(marker, playbook)
