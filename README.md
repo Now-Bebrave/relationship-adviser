@@ -8,6 +8,7 @@ The initial package is documentation-first and has no model or network dependenc
 
 ## Knowledge map
 
+- `knowledge/README.md`: knowledge-base navigation and loading order.
 - `knowledge/notes/`: verified research cards, with DOI, review status, usable claims, and limits.
 - `knowledge/books/`: verified book metadata and rules for using L2 material.
 - `knowledge/legal/`: official-law indexes and practical legal checklists.
