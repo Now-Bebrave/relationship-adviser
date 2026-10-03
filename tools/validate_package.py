@@ -12,6 +12,7 @@ REQUIRED_PATHS = (
     "core/communication.md",
     "core/domains.md",
     "core/output.md",
+    "core/voice.md",
     "core/profile-policy.md",
     "knowledge-schema/source.schema.json",
     "knowledge-schema/video-card.schema.json",
@@ -27,6 +28,8 @@ REQUIRED_PATHS = (
     "knowledge/legal/anti-domestic-violence-law.md",
     "examples/knowledge-seed.md",
     "examples/cases/bride-price-family-negotiation.md",
+    "adapters/workbuddy/MOBILE_PROMPT.md",
+    "docs/mobile-and-voice.md",
 )
 
 OUTPUT_LABELS = (

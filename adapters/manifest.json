@@ -1,6 +1,6 @@
 {
   "name": "relationship-adviser",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "core_entry": "core/mission.md",
   "output_protocol": "core/output.md",
   "platforms": {
@@ -8,5 +8,5 @@
     "claude-code": {"entry": "adapters/claude-code/SKILL.md", "profile_path": "private-vault/profile/profile.yaml"},
     "workbuddy": {"entry": "adapters/workbuddy/SKILL.md", "profile_path": "private-vault/profile/profile.yaml"}
   },
-  "capabilities": ["read_profile", "search_knowledge", "save_case", "render_mermaid", "generate_illustration"]
+  "capabilities": ["read_profile", "search_knowledge", "save_case", "render_mermaid", "generate_illustration", "voice_input", "voice_output", "private_decision_log"]
 }

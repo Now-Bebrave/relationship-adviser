@@ -19,6 +19,9 @@ class AdapterTests(unittest.TestCase):
     def test_manifest_lists_all_targets(self) -> None:
         manifest = json.loads((ROOT / "adapters" / "manifest.json").read_text(encoding="utf-8"))
         self.assertEqual(set(manifest["platforms"]), {"codex", "claude-code", "workbuddy"})
+        self.assertEqual(manifest["version"], "2.0.0")
+        for capability in ("voice_input", "voice_output", "private_decision_log"):
+            self.assertIn(capability, manifest["capabilities"])
 
     def test_adapters_load_shared_core(self) -> None:
         for platform in ("codex", "claude-code", "workbuddy"):

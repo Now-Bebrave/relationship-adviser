@@ -35,6 +35,8 @@ If the mobile app supports importing a GitHub skill, import:
 
 Choose the root entry SKILL.md and name it relationship-adviser. If the app only accepts an instruction message, paste the contents of the root SKILL.md and keep the GitHub URL as the knowledge source. The mobile app may not support local filesystem paths or automatic Git updates; this depends on the installed WorkBuddy version.
 
+For a shorter mobile prompt, use `adapters/workbuddy/MOBILE_PROMPT.md`. Voice input uses the app's own speech recognition when available; the repository does not upload audio or bundle a cloud speech provider.
+
 ## Update
 
 For cloned installations:

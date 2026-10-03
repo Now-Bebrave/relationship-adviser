@@ -4,3 +4,5 @@ Load [the shared mission](../../core/mission.md), then read the local profile at
 
 Map capabilities to local files and tools: `read_profile`, `search_knowledge`, `save_case`, `render_mermaid`, and `generate_illustration`. If an image tool is unavailable, return Mermaid, tables, and a text description.
 Use `tools/visual_output.py` for the shared trigger, illustration request fields, and Markdown fallback before calling any platform image tool.
+
+For mobile-only installation, load [MOBILE_PROMPT.md](MOBILE_PROMPT.md). Voice input and output follow [the shared voice protocol](../../core/voice.md). Confirm amounts, dates, negations, threats, and low-confidence transcription before making consequential recommendations. Save a private decision log only after the user explicitly asks to save it.
