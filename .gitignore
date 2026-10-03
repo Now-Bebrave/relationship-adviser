@@ -10,3 +10,9 @@ private-vault/**
 !tests/fixtures/media/*.mp4
 **/*.mov
 **/*.mkv
+
+# 本地工作日志（含隐私，不提交）；MEMORY.md 约定保留
+.workbuddy/memory/2*.md
+
+# ImageGen 原始生成图（带时间戳的中间产物），只保留规范命名的成品
+assets/*_20*.png
