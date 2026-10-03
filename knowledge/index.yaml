@@ -1,0 +1,44 @@
+version: 1
+description: "Relationship Adviser public knowledge routing index"
+loading:
+  first: [core/mission.md, core/output.md, core/topic-router.md]
+  maximum_research_cards: 3
+  private_data: "仅当属于当前用户时读取 private-vault"
+topics:
+  - id: attraction
+    label: "择偶与吸引"
+    keywords: [外貌, 吸引, 暧昧, 筛选, 要不要继续]
+    playbooks: [appearance-attraction-and-body-respect.md]
+  - id: conflict
+    label: "冲突与修复"
+    keywords: [吵架, 冷战, 道歉, 反复犯错]
+    playbooks: [conflict-demand-withdraw.md, repair-after-harm.md]
+  - id: commitment
+    label: "同居与承诺"
+    keywords: [同居, 订婚, 登记, 结婚]
+    playbooks: [premarital-cohabitation-audit.md]
+  - id: marriage_finance
+    label: "彩礼、婚房与财务"
+    keywords: [彩礼, 婚房, 婚礼, 三金, 借款, 债务]
+    playbooks: [bride-price-and-wedding-budget-negotiation.md, marriage-payment-type-and-risk-audit.md]
+  - id: family
+    label: "家庭边界与父母介入"
+    keywords: [父母, 婆媳, 岳父母, 断供, 催婚]
+    playbooks: [family-boundaries-and-inlaws.md, parental-involvement-and-couple-authority.md]
+  - id: migration_care
+    label: "迁移与照护"
+    keywords: [异地, 辞职, 回乡, 养老, 照护]
+    playbooks: [migration-timing-and-marriage-roadmap.md, intergenerational-caregiving-and-gender-load-audit.md]
+  - id: parenting
+    label: "生育与育儿"
+    keywords: [生育, 备孕, 育儿, 产后]
+    playbooks: [childbearing-intention-timing-and-capacity-audit.md, transition-to-parenthood.md]
+  - id: sex_health
+    label: "性与健康"
+    keywords: [性需求, 同意, 避孕, 性病]
+    playbooks: [sexual-desire-discrepancy.md, sti-partner-notification.md]
+  - id: safety
+    label: "经济控制与关系安全"
+    keywords: [查账, 上交工资, 担保, 限制工作, 威胁, 跟踪, 暴力]
+    playbooks: [economic-control-and-financial-safety-plan.md, relationship-exit-execution.md]
+
