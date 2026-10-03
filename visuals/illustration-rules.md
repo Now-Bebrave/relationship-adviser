@@ -13,3 +13,11 @@ The dependency-free helper `tools/visual_output.py` provides the shared contract
 - `render_text_fallback(...)` produces a Markdown table with the same branches.
 
 Adapters may pass the request to a platform image tool. If that tool is unavailable, they must return the generated fallback and keep the same conclusion and actions.
+
+## Local mobile card output
+
+Use `tools/render_decision_visual.py` for a shareable SVG without network access or image-model dependencies. Supported types are timeline, risk, responsibility, cost, and decision. Follow `visuals/mobile-card-rules.md`; always keep an equivalent Markdown/Mermaid fallback.
+
+```bash
+python tools/render_decision_visual.py examples/visuals/migration-90-day-card.json output.svg
+```
