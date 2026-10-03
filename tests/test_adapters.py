@@ -15,6 +15,7 @@ class AdapterTests(unittest.TestCase):
         install = (ROOT / "docs" / "INSTALL.md").read_text(encoding="utf-8")
         self.assertIn("relationship-adviser", install)
         self.assertIn("git clone", install)
+        self.assertIn("/relationship-adviser", install)
 
     def test_manifest_lists_all_targets(self) -> None:
         manifest = json.loads((ROOT / "adapters" / "manifest.json").read_text(encoding="utf-8"))
@@ -32,3 +33,9 @@ class AdapterTests(unittest.TestCase):
             self.assertIn("read_profile", text)
             self.assertIn("search_knowledge", text)
             self.assertNotIn("1. 定义用户要达成的结果", text)
+
+    def test_workbuddy_registers_explicit_relationship_adviser_command(self) -> None:
+        root_skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+        mobile = (ROOT / "adapters" / "workbuddy" / "MOBILE_PROMPT.md").read_text(encoding="utf-8")
+        self.assertIn("name: relationship-adviser", root_skill)
+        self.assertIn("/relationship-adviser", mobile)

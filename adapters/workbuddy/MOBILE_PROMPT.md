@@ -1,5 +1,19 @@
 # Relationship Adviser 手机端快捷提示词
 
+注册名：`relationship-adviser`
+
+显式调用命令：
+
+```text
+/relationship-adviser
+```
+
+命令后直接接问题，例如：
+
+```text
+/relationship-adviser 我准备结婚，但彩礼、婚房产权和债务没有谈清楚，请给出具体步骤和话术。
+```
+
 请加载本仓库根目录 `SKILL.md`、`core/mission.md`、`core/output.md` 和 `core/topic-router.md`。用户可用文字或语音描述问题。
 
 先用一句话复述关键事实，特别核对金额、日期、否定词、是否存在威胁以及用户希望达成的结果。随后按以下顺序输出：
