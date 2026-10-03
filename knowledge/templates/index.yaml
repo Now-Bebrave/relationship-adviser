@@ -1,0 +1,24 @@
+version: 1
+templates:
+  - id: premarital_total_cost
+    file: premarital-total-cost.md
+    review: "付款或登记前 72 小时"
+  - id: debt_cashflow_stress
+    file: debt-and-cashflow-stress-test.md
+    review: "每月"
+  - id: migration_trial
+    file: migration-90-day-trial.md
+    review: "第 14、45、90 天"
+  - id: mental_load_log
+    file: mental-load-weekly-log.md
+    review: "每周 20 分钟"
+  - id: parent_care
+    file: parent-care-time-money.md
+    review: "每月"
+  - id: childbearing_plan
+    file: childbearing-responsibility-plan.md
+    review: "3、6、12 个月"
+  - id: exit_safety
+    file: exit-logistics-and-safety.md
+    review: "需要退出时；安全优先"
+
