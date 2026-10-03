@@ -55,6 +55,12 @@ cd relationship-adviser
 
 在支持本地 Skill 的工具中，将仓库目录作为 Skill 根目录，或直接加载根目录的 `SKILL.md`，然后用自然语言描述问题。
 
+在支持斜杠调用的 WorkBuddy 中，显式命令为：
+
+```text
+/relationship-adviser 这里写你的关系问题
+```
+
 推荐加载顺序：先读 `core/mission.md` 和 `core/output.md`，再读相关 `knowledge/playbooks/`、`knowledge/notes/` 和 `knowledge/legal/`。只有在确实属于当前用户时才读取本地 `private-vault/`。
 
 提问示例：
