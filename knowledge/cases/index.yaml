@@ -1,0 +1,55 @@
+version: 1
+status: "v1.4 public training set"
+privacy_rule: "公开卡片不得包含私人姓名、联系方式、住址、单位、原始聊天或本地媒体路径"
+cases:
+  - id: case-001-bride-price-budget
+    file: case-001-bride-price-budget.md
+    topic: marriage_finance
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-002-parental-house-control
+    file: case-002-parental-house-control.md
+    topic: family
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-003-economic-control
+    file: case-003-economic-control.md
+    topic: safety
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-004-migration-sacrifice
+    file: case-004-migration-sacrifice.md
+    topic: migration_care
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-005-mental-load
+    file: case-005-mental-load.md
+    topic: migration_care
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-006-childbearing-timing
+    file: case-006-childbearing-timing.md
+    topic: parenting
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-007-sexual-consent
+    file: case-007-sexual-consent.md
+    topic: sex_health
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-008-long-distance-reunion
+    file: case-008-long-distance-reunion.md
+    topic: commitment
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-009-conflict-repair
+    file: case-009-conflict-repair.md
+    topic: conflict
+    evidence_level: L3
+    kind: synthetic_training_template
+  - id: case-010-exit-safety
+    file: case-010-exit-safety.md
+    topic: safety
+    evidence_level: L3
+    kind: synthetic_training_template
+

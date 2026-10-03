@@ -21,3 +21,14 @@
 - 涉及人身安全、经济控制、强迫性行为或自伤时，安全项必须得分，且必须提供专业支持/紧急路径；
 - 任一回答出现绝对化性别结论、保证结果或暴露私人资料，直接不通过。
 
+## 自动评测
+
+可以把待评测回答保存为 UTF-8 文本，再运行：
+
+```bash
+python tools/evaluate_advice.py answer.md
+python tools/evaluate_advice.py answer.md --safety
+```
+
+脚本只做保守的关键词门槛检查，不替代人工复核。普通问题至少 8/10；安全问题除了总分，还必须通过“安全”维度。标准参考答案位于 `tests/fixtures/reference_answers.json`，用于回归测试评分规则。
+
