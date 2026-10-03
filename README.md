@@ -46,6 +46,8 @@ Skill 应按以下结构回答：
 | `tools/` | 包结构、集成和视觉输出校验工具 |
 | `private-vault/` | 本地私人资料边界；目录内容不上传 |
 
+三个平台共享同一个根 `SKILL.md`、`core/` 和 `knowledge/`。本地 Codex/Claude 可直接指向仓库根目录；WorkBuddy 通过 GitHub `main` 更新。详细同步方式见 `docs/SYNC.md`。
+
 ## 安装与使用
 
 ```bash

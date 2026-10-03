@@ -13,6 +13,7 @@ REQUIRED_PATHS = (
     "core/domains.md",
     "core/output.md",
     "core/voice.md",
+    "core/single-source.md",
     "core/profile-policy.md",
     "knowledge-schema/source.schema.json",
     "knowledge-schema/video-card.schema.json",
@@ -30,6 +31,7 @@ REQUIRED_PATHS = (
     "examples/cases/bride-price-family-negotiation.md",
     "adapters/workbuddy/MOBILE_PROMPT.md",
     "docs/mobile-and-voice.md",
+    "docs/SYNC.md",
 )
 
 OUTPUT_LABELS = (
